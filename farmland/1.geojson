@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": "way/1161733469", "@id": "way/1161733469", "landuse": "farmland", "place": null, "wikidata": null, "crop": null, "name": null, "trees": null, "natural": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 29.6590518, -1.5182589 ], [ 29.6588406, -1.5186654 ], [ 29.6592747, -1.5188907 ], [ 29.6595479, -1.5186502 ], [ 29.6596977, -1.5185714 ], [ 29.65959, -1.5183669 ], [ 29.6595023, -1.5184131 ], [ 29.6592938, -1.5182395 ], [ 29.6590518, -1.5182589 ] ] ] } }
+]
+}
