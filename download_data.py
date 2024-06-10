@@ -26,9 +26,9 @@ field_coords = [[30.125561339140923,-1.5585790911711437],
 
 # Define the Area of Interest (AOI)
 # Replace with your AOI or use a known location
-aoi = ee.Geometry.Polygon([field_coords])
-feature = ee.Feature(aoi, {})
-roi = feature.geometry()
+roi = ee.Geometry.Polygon([field_coords])
+# feature = ee.Feature(aoi, {})
+# roi = feature.geometry()
 
 # Define the date range
 end_date = datetime.datetime.now()
