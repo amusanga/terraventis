@@ -20,22 +20,78 @@ class ComputeIndices:
     
     def get_sentinel_collection(self, start_date, end_date):
         # Filter the Sentinel-2 dataset
-        self.collection = (ee.ImageCollection('COPERNICUS/S2_SR_HARMONIZED')
+        collection = (ee.ImageCollection('COPERNICUS/S2_SR_HARMONIZED')
                       .filterBounds(self.roi)
                       .filterDate(start_date, end_date))
                       #.select(['B1', 'B2', 'B3', 'B4', 'B5', 'B6', 'B7', 'B8', 'B8A', 'B9', 'B11', 'B12']))
         
-        return self.collection
+        return collection
     
+    def get_chirps_collection(self, start_date, end_date):
+        # Extract precipitation data from CHIRPS
+        collection = (ee.ImageCollection('UCSB-CHG/CHIRPS/DAILY')
+                      .filterBounds(self.roi)
+                      .filterDate(start_date, end_date)
+                      .select('precipitation'))
+
+        return collection
+    
+    def get_production_collection(self, start_date, end_date):
+        # Extract production data from MODIS
+        collection = (ee.ImageCollection('MODIS/061/MOD17A2H')
+                      .filterBounds(self.roi)
+                      .filterDate(start_date, end_date)
+                      .select('Gpp'))
+
+        return collection
+    
+    def get_evapotranspiration_collection(self, start_date, end_date):
+        # Extract production data from MODIS
+        collection = (ee.ImageCollection('MODIS/061/MOD16A2GF')
+                      .filterBounds(self.roi)
+                      .filterDate(start_date, end_date)
+                      .select('ET'))
+
+        return collection
+    
+    def get_temperature_collection(self, start_date, end_date):
+        # Extract production data from MODIS
+        collection = (ee.ImageCollection('MODIS/061/MOD11A2')
+                      .filterBounds(self.roi)
+                      .filterDate(start_date, end_date)
+                      .select('LST_Day_1km'))
+
+        return collection
+    
+    def get_rainfall_collection(self, start_date, end_date):
+        # Extract production data from MODIS
+        collection = (ee.ImageCollection('TRMM/3B42')
+                      .filterBounds(self.roi)
+                      .filterDate(start_date, end_date)
+                      .select('precipitation', 'HQprecipitation', 'IRprecipitation'))
+
+        return collection
+    
+    def get_wind_speed_collection(self, start_date, end_date):
+
+        # Extract production data from MODIS
+        collection = (ee.ImageCollection('ECMWF/ERA5_LAND/DAILY_AGGR')
+                      .filterBounds(self.roi)
+                      .filterDate(start_date, end_date)
+                      .select('u_component_of_wind_10m', 'v_component_of_wind_10m'))
+
+        return collection
+
+
         # Function to compute monthly collection
-    def get_monthly_collection(self, date):
+    def get_monthly_collection(self, date, collection):
         start = ee.Date(date)
         end = start.advance(1, 'month')
-        return self.collection.filterDate(start, end)
+        return collection.filterDate(start, end)
 
     # Function to compute monthly median
-    def get_monthly_median(self, date):
-        monthly_collection = self.get_monthly_collection(date)
+    def get_monthly_median(self, date, collection):
+        monthly_collection = self.get_monthly_collection(date, collection)
         return monthly_collection.median().set('system:time_start', ee.Date(date).millis())
 
     # Create a list of dates for each month in the date range
@@ -198,19 +254,6 @@ class ComputeIndices:
         image = self.compute_gci(image)
         return image
     
-    def add_weather_indices(self, image):
-
-        # Define the datasets
-        datasets = {
-            'production': 'MODIS/061/MOD17A2H',
-            'precipitation': 'UCSB-CHG/CHIRPS/DAILY',
-            'evapotranspiration': 'MODIS/061/MOD16A2GF',
-            'temperature': 'MODIS/061/MOD11A2',
-            'soil_moisture': 'NASA_USDA/HSL/SMAP10KM_soil_moisture',
-            'rainfall': 'TRMM/3B42',
-            'wind_speed': 'ECMWF/ERA5_LAND/DAILY_AGGR',
-        }
-
         # Function to extract index values and save to JSON
     def extract_and_save_indices(self,image, aoi, index_name):
         stats = image.reduceRegion(
@@ -237,6 +280,27 @@ class ComputeIndices:
         # # Extract the weather data for each month and save to a list
         # weather_data = []
         # weather_names =
+
+        datasets = {
+            'production': 'MODIS/061/MOD17A2H',
+            'precipitation': 'UCSB-CHG/CHIRPS/DAILY',
+            'evapotranspiration': 'MODIS/061/MOD16A2GF',
+            'temperature': 'MODIS/061/MOD11A2',
+            'soil_moisture': 'NASA_USDA/HSL/SMAP10KM_soil_moisture',
+            'rainfall': 'TRMM/3B42',
+            'wind_speed': 'ECMWF/ERA5_LAND/DAILY_AGGR',
+        }
+
+        # index_data = []
+
+        # for dataset_name, dataset in datasets.items():
+        # monthly_means = ee.ImageCollection.fromImages(months.map(lambda date: get_monthly_mean_image_with_indices(dataset, date)))
+        # monthly_means_list = monthly_means.toList(monthly_means.size())
+        # for i in range(monthly_means.size().getInfo()):
+        #     date = ee.Date(ee.Image(monthly_means_list.get(i)).get('system:time_start')).format('YYYY-MM').getInfo()
+        #     stats = extract_and_save_indices(ee.Image(monthly_means_list.get(i)), aoi, dataset_name)
+        #     index_data.append(stats)
+
     
     def get_vegetation_indices(self, collection):
         # Apply the function to each monthly median image
@@ -252,12 +316,8 @@ class ComputeIndices:
         return index_data
     
     
-    def get_vegetation_data(self, start_date, end_date):
-        collection = self.get_sentinel_collection(start_date, end_date)
-        months = self.generate_monthly_dates(start_date, end_date)
-        # Compute the monthly median for each month
-        monthly_medians = ee.ImageCollection.fromImages(months.map(lambda date: self.get_monthly_median(date)))
-
+    def get_vegetation_data(self, months, sentil_collection):
+        monthly_medians = ee.ImageCollection.fromImages(months.map(lambda date: self.get_monthly_median(date, sentil_collection)))
         aggregate_vegetation_data = self.aggregate_data(self.get_vegetation_indices(monthly_medians))
         return aggregate_vegetation_data
     
@@ -279,8 +339,10 @@ class ComputeIndices:
 
     def computeIndexes(self, start_date, end_date):
         # Get list of monthly dates
-
-        aggregate_vegetation_data = self.get_vegetation_data( start_date, end_date)
+        sentil_collection = self.get_sentinel_collection(start_date, end_date)
+        months = self.generate_monthly_dates(start_date, end_date)
+        # Compute the monthly median for each month
+        aggregate_vegetation_data = self.get_vegetation_data(months, sentil_collection)
 
         # Merge the weather and vegetation data
         aggregated_data = {"weather":None, "vegetation":aggregate_vegetation_data}
