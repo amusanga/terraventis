@@ -26,7 +26,19 @@ class ComputeIndices:
                       #.select(['B1', 'B2', 'B3', 'B4', 'B5', 'B6', 'B7', 'B8', 'B8A', 'B9', 'B11', 'B12']))
         
         return collection
+
+    def get_weather_collections(self, start_date, end_date):
+        collections = {
+            'production': self.get_production_collection(start_date, end_date),
+            'precipitation': self.get_chirps_collection(start_date, end_date),
+            'evapotranspiration': self.get_evapotranspiration_collection(start_date, end_date),
+            'temperature': self.get_temperature_collection(start_date, end_date),
+            'rainfall': self.get_rainfall_collection(start_date, end_date),
+            'wind_speed': self.get_wind_speed_collection(start_date, end_date),
+        }
+        return collections
     
+
     def get_chirps_collection(self, start_date, end_date):
         # Extract precipitation data from CHIRPS
         collection = (ee.ImageCollection('UCSB-CHG/CHIRPS/DAILY')
@@ -266,7 +278,6 @@ class ComputeIndices:
             maxPixels=1e9
         ).getInfo()
 
-
         return {
             'date': ee.Date(image.get('system:time_start')).format('YYYY-MM').getInfo(),
             f'{index_name}_min': stats.get(f'{index_name}_min'),
@@ -274,32 +285,31 @@ class ComputeIndices:
             f'{index_name}_mean': stats.get(f'{index_name}_mean')
         }
     
-    def get_weather_indices(self, collection):
-    # Apply the function to each monthly median image
-        monthly_median = collection.median()
-        # # Extract the weather data for each month and save to a list
-        # weather_data = []
-        # weather_names =
+            # Function to extract index values and save to JSON
+    def extract_and_save_weather_indices(self,image, aoi, index_name):
+        stats = image.reduceRegion(
+            reducer=ee.Reducer.mean(),
+            geometry=aoi,
+            scale=10,
+            maxPixels=1e9
+        ).getInfo()
 
-        datasets = {
-            'production': 'MODIS/061/MOD17A2H',
-            'precipitation': 'UCSB-CHG/CHIRPS/DAILY',
-            'evapotranspiration': 'MODIS/061/MOD16A2GF',
-            'temperature': 'MODIS/061/MOD11A2',
-            'soil_moisture': 'NASA_USDA/HSL/SMAP10KM_soil_moisture',
-            'rainfall': 'TRMM/3B42',
-            'wind_speed': 'ECMWF/ERA5_LAND/DAILY_AGGR',
+
+        return {
+            'date': ee.Date(image.get('system:time_start')).format('YYYY-MM').getInfo(),
+            f'{index_name}_mean': stats.get(f'{index_name}'),
         }
+    
+    # Function to extract weather indices
+    def get_weather_indices(self, collections):
+        weather_data = []
 
-        # index_data = []
+        for collection_name, monthly_indices in collections.items():
+            monthly_indices_list = monthly_indices.toList(monthly_indices.size())
+            for i in range(monthly_indices.size().getInfo()):
+                weather_data.append(self.extract_and_save_weather_indices(ee.Image(monthly_indices_list.get(i)), self.roi, collection_name))
 
-        # for dataset_name, dataset in datasets.items():
-        # monthly_means = ee.ImageCollection.fromImages(months.map(lambda date: get_monthly_mean_image_with_indices(dataset, date)))
-        # monthly_means_list = monthly_means.toList(monthly_means.size())
-        # for i in range(monthly_means.size().getInfo()):
-        #     date = ee.Date(ee.Image(monthly_means_list.get(i)).get('system:time_start')).format('YYYY-MM').getInfo()
-        #     stats = extract_and_save_indices(ee.Image(monthly_means_list.get(i)), aoi, dataset_name)
-        #     index_data.append(stats)
+        return weather_data
 
     
     def get_vegetation_indices(self, collection):
@@ -315,13 +325,18 @@ class ComputeIndices:
                 index_data.append(self.extract_and_save_indices(ee.Image(monthly_indices_list.get(i)), self.roi, index_name))
         return index_data
     
-    
     def get_vegetation_data(self, months, sentil_collection):
         monthly_medians = ee.ImageCollection.fromImages(months.map(lambda date: self.get_monthly_median(date, sentil_collection)))
         aggregate_vegetation_data = self.aggregate_data(self.get_vegetation_indices(monthly_medians))
         return aggregate_vegetation_data
     
-
+    def get_weather_data(self, months, weather_collection):
+        monthly_medians = {}
+        for collection_name, collection in weather_collection.items():
+            monthly_medians[collection_name] = ee.ImageCollection.fromImages(months.map(lambda date: self.get_monthly_median(date, collection)))
+        aggregate_weather_data = self.aggregate_data(self.get_weather_indices(monthly_medians))
+        return aggregate_weather_data
+    
     def aggregate_data(self, index_data):
         aggregated_data = defaultdict(dict)
         for entry in index_data:
@@ -338,14 +353,19 @@ class ComputeIndices:
         return aggregated_data
 
     def computeIndexes(self, start_date, end_date):
-        # Get list of monthly dates
+        #
         sentil_collection = self.get_sentinel_collection(start_date, end_date)
+        weather_collection = self.get_weather_collections(start_date, end_date)
+
+        # Get list of monthly dates
         months = self.generate_monthly_dates(start_date, end_date)
         # Compute the monthly median for each month
         aggregate_vegetation_data = self.get_vegetation_data(months, sentil_collection)
+        # aggregate_vegetation_data = None
+        aggregate_weather_data = self.get_weather_data(months, weather_collection)
 
         # Merge the weather and vegetation data
-        aggregated_data = {"weather":None, "vegetation":aggregate_vegetation_data}
+        aggregated_data = {"weather":aggregate_weather_data, "vegetation":aggregate_vegetation_data}
         # Save to a JSON file
         output_file = 'aggregated_output.json'
         with open(output_file, 'w') as json_file:

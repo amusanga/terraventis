@@ -1,5 +1,226 @@
 {
-    "weather": null,
+    "weather": {
+        "2022-01": {
+            "production": {
+                "mean": null
+            },
+            "precipitation": {
+                "mean": 1.2217962741851807
+            },
+            "evapotranspiration": {
+                "mean": null
+            },
+            "temperature": {
+                "mean": null
+            },
+            "rainfall": {
+                "mean": null
+            },
+            "wind": {
+                "speed": null
+            }
+        },
+        "2022-02": {
+            "production": {
+                "mean": null
+            },
+            "precipitation": {
+                "mean": 5.371157169342041
+            },
+            "evapotranspiration": {
+                "mean": null
+            },
+            "temperature": {
+                "mean": null
+            },
+            "rainfall": {
+                "mean": null
+            },
+            "wind": {
+                "speed": null
+            }
+        },
+        "2022-03": {
+            "production": {
+                "mean": null
+            },
+            "precipitation": {
+                "mean": 0
+            },
+            "evapotranspiration": {
+                "mean": null
+            },
+            "temperature": {
+                "mean": null
+            },
+            "rainfall": {
+                "mean": null
+            },
+            "wind": {
+                "speed": null
+            }
+        },
+        "2022-04": {
+            "production": {
+                "mean": null
+            },
+            "precipitation": {
+                "mean": 0
+            },
+            "evapotranspiration": {
+                "mean": null
+            },
+            "temperature": {
+                "mean": null
+            },
+            "rainfall": {
+                "mean": null
+            },
+            "wind": {
+                "speed": null
+            }
+        },
+        "2022-05": {
+            "production": {
+                "mean": null
+            },
+            "precipitation": {
+                "mean": 0
+            },
+            "evapotranspiration": {
+                "mean": null
+            },
+            "temperature": {
+                "mean": null
+            },
+            "rainfall": {
+                "mean": null
+            },
+            "wind": {
+                "speed": null
+            }
+        },
+        "2022-06": {
+            "production": {
+                "mean": null
+            },
+            "precipitation": {
+                "mean": 0
+            },
+            "evapotranspiration": {
+                "mean": null
+            },
+            "temperature": {
+                "mean": null
+            },
+            "rainfall": {
+                "mean": null
+            },
+            "wind": {
+                "speed": null
+            }
+        },
+        "2022-07": {
+            "production": {
+                "mean": null
+            },
+            "precipitation": {
+                "mean": 0
+            },
+            "evapotranspiration": {
+                "mean": null
+            },
+            "temperature": {
+                "mean": null
+            },
+            "rainfall": {
+                "mean": null
+            },
+            "wind": {
+                "speed": null
+            }
+        },
+        "2022-08": {
+            "production": {
+                "mean": null
+            },
+            "precipitation": {
+                "mean": 0
+            },
+            "evapotranspiration": {
+                "mean": null
+            },
+            "temperature": {
+                "mean": null
+            },
+            "rainfall": {
+                "mean": null
+            },
+            "wind": {
+                "speed": null
+            }
+        },
+        "2022-09": {
+            "production": {
+                "mean": null
+            },
+            "precipitation": {
+                "mean": 0
+            },
+            "evapotranspiration": {
+                "mean": null
+            },
+            "temperature": {
+                "mean": null
+            },
+            "rainfall": {
+                "mean": null
+            },
+            "wind": {
+                "speed": null
+            }
+        },
+        "2022-10": {
+            "production": {
+                "mean": null
+            },
+            "precipitation": {
+                "mean": 2.8656790256500244
+            },
+            "evapotranspiration": {
+                "mean": null
+            },
+            "temperature": {
+                "mean": null
+            },
+            "rainfall": {
+                "mean": null
+            },
+            "wind": {
+                "speed": null
+            }
+        },
+        "2022-11": {
+            "production": {
+                "mean": null
+            },
+            "precipitation": {
+                "mean": 5.384902000427246
+            },
+            "evapotranspiration": {
+                "mean": null
+            },
+            "temperature": {
+                "mean": null
+            },
+            "rainfall": {
+                "mean": null
+            },
+            "wind": {
+                "speed": null
+            }
+        }
+    },
     "vegetation": {
         "2022-01": {
             "NDVI": {
