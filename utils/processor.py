@@ -1,9 +1,13 @@
 import ee
 import os
 import json
-import geopandas as gpd
-
+import datetime
+import logging
 from collections import defaultdict
+
+# Configure logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logger = logging.getLogger()
 
 # Authenticate and initialize the Earth Engine
 ee.Authenticate()
@@ -20,6 +24,7 @@ class ComputeIndices:
     
     def get_sentinel_collection(self, start_date, end_date):
         # Filter the Sentinel-2 dataset
+        logger.info(f'Get sentile data collection')
         collection = (ee.ImageCollection('COPERNICUS/S2_SR_HARMONIZED')
                       .filterBounds(self.roi)
                       .filterDate(start_date, end_date))
@@ -28,6 +33,7 @@ class ComputeIndices:
         return collection
 
     def get_weather_collections(self, start_date, end_date):
+        logger.info(f'Get weather data collection')
         collections = {
             'production': self.get_production_collection(start_date, end_date),
             'precipitation': self.get_chirps_collection(start_date, end_date),
@@ -41,6 +47,8 @@ class ComputeIndices:
 
     def get_chirps_collection(self, start_date, end_date):
         # Extract precipitation data from CHIRPS
+        logger.info(f'Extract precipitation data from CHIRPS')
+
         collection = (ee.ImageCollection('UCSB-CHG/CHIRPS/DAILY')
                       .filterBounds(self.roi)
                       .filterDate(start_date, end_date)
@@ -50,6 +58,8 @@ class ComputeIndices:
     
     def get_production_collection(self, start_date, end_date):
         # Extract production data from MODIS
+        logger.info(f'Extract production data from MODIS')
+
         collection = (ee.ImageCollection('MODIS/061/MOD17A2H')
                       .filterBounds(self.roi)
                       .filterDate(start_date, end_date)
@@ -58,7 +68,9 @@ class ComputeIndices:
         return collection
     
     def get_evapotranspiration_collection(self, start_date, end_date):
-        # Extract production data from MODIS
+        # Extract evaporisation data from MODIS
+        logger.info(f'Extract evaporisation data from MODIS')
+
         collection = (ee.ImageCollection('MODIS/061/MOD16A2GF')
                       .filterBounds(self.roi)
                       .filterDate(start_date, end_date)
@@ -68,6 +80,8 @@ class ComputeIndices:
     
     def get_temperature_collection(self, start_date, end_date):
         # Extract production data from MODIS
+        logger.info(f'Extract temperature data from MODIS')
+
         collection = (ee.ImageCollection('MODIS/061/MOD11A2')
                       .filterBounds(self.roi)
                       .filterDate(start_date, end_date)
@@ -77,6 +91,8 @@ class ComputeIndices:
     
     def get_rainfall_collection(self, start_date, end_date):
         # Extract production data from MODIS
+        logger.info(f'Extract rainfall data from TRMM')
+
         collection = (ee.ImageCollection('TRMM/3B42')
                       .filterBounds(self.roi)
                       .filterDate(start_date, end_date)
@@ -85,8 +101,9 @@ class ComputeIndices:
         return collection
     
     def get_wind_speed_collection(self, start_date, end_date):
-
         # Extract production data from MODIS
+        logger.info(f'Extract wind speed data from ECMWF')
+
         collection = (ee.ImageCollection('ECMWF/ERA5_LAND/DAILY_AGGR')
                       .filterBounds(self.roi)
                       .filterDate(start_date, end_date)
@@ -97,17 +114,22 @@ class ComputeIndices:
 
         # Function to compute monthly collection
     def get_monthly_collection(self, date, collection):
+        logger.info(f'Extract monthly Image collection')
+
         start = ee.Date(date)
         end = start.advance(1, 'month')
         return collection.filterDate(start, end)
 
     # Function to compute monthly median
     def get_monthly_median(self, date, collection):
+        logger.info(f'Compute monthly median on image collections')
+
         monthly_collection = self.get_monthly_collection(date, collection)
         return monthly_collection.median().set('system:time_start', ee.Date(date).millis())
 
     # Create a list of dates for each month in the date range
     def generate_monthly_dates(self, start_date, end_date):
+        logger.info(f'Generate monthly dates')
         start = ee.Date(start_date)
         end = ee.Date(end_date)
         months = ee.List.sequence(0, end.difference(start, 'month').subtract(1)).map(lambda n: start.advance(n, 'month'))
@@ -115,11 +137,13 @@ class ComputeIndices:
 
     # Function to compute NDVI
     def compute_ndvi(self, image):
+        logger.info(f'Compute NDVI index')
         ndvi = image.normalizedDifference(['B8', 'B4']).rename('NDVI')
         return image.addBands(ndvi)
 
     # Function to compute SAVI
     def compute_savi(self, image):
+        logger.info(f'Compute SAVI index')
         L = 0.5
         savi = image.expression(
             '((NIR - RED) / (NIR + RED + L)) * (1 + L)', {
@@ -131,6 +155,7 @@ class ComputeIndices:
 
     # Function to compute LAI
     def compute_lai(self, image):
+        logger.info(f'Compute LAI index')
         lai = image.expression(
             '3.618 * EVI - 0.118', {
                 'EVI': image.expression(
@@ -144,6 +169,9 @@ class ComputeIndices:
 
     # Function to compute TCARI/OSAVI
     def compute_tcari_osavi(self, image):
+    
+        logger.info(f'Compute tcari_osavi index')
+
         tcari = image.expression(
             '3 * ((RE - RED) - 0.2 * (RE - GREEN) * (RE / RED))', {
                 'RE': image.select('B5'),
@@ -160,6 +188,8 @@ class ComputeIndices:
 
     # Function to compute WDRVI
     def compute_wdrvi(self, image):
+        logger.info(f'Compute WDRVI index')
+
         alpha = 0.1
         wdrvi = image.expression(
             '(alpha * NIR - RED) / (alpha * NIR + RED)', {
@@ -171,16 +201,19 @@ class ComputeIndices:
 
     # Function to compute GNDVI
     def compute_gndvi(self, image):
+        logger.info(f'Compute GNDVI index')
         gndvi = image.normalizedDifference(['B8', 'B3']).rename('GNDVI')
         return image.addBands(gndvi)
 
     # Function to compute NDMI
     def compute_ndmi(self, image):
+        logger.info(f'Compute NDMI index')
         ndmi = image.normalizedDifference(['B8', 'B11']).rename('NDMI')
         return image.addBands(ndmi)
 
     # Function to compute NMDI
     def compute_nmdi(self, image):
+        logger.info(f'Compute NMDI index')
         nmdi = image.expression(
             '(NIR - (SWIR1 + SWIR2)) / (NIR + (SWIR1 + SWIR2))', {
                 'NIR': image.select('B8'),
@@ -191,6 +224,7 @@ class ComputeIndices:
 
     # Function to compute RECl
     def compute_recl(self, image):
+        logger.info(f'Compute RECL index')
         recl = image.expression(
             'RE / RED - 1', {
                 'RE': image.select('B5'),
@@ -200,16 +234,19 @@ class ComputeIndices:
 
     # Function to compute NDRE
     def compute_ndre(self, image):
+        logger.info(f'Compute NDRE index')
         ndre = image.normalizedDifference(['B8', 'B5']).rename('NDRE')
         return image.addBands(ndre)
 
     # Function to compute NDWI
     def compute_ndwi(self, image):
+        logger.info(f'Compute NDWI index')
         ndwi = image.normalizedDifference(['B3', 'B8']).rename('NDWI')
         return image.addBands(ndwi)
 
     # Function to compute ARVI
     def compute_arvi(self, image):
+        logger.info(f'Compute ARVI index')
         arvi = image.expression(
             '(NIR - 2 * RED + BLUE) / (NIR + 2 * RED + BLUE)', {
                 'NIR': image.select('B8'),
@@ -220,6 +257,7 @@ class ComputeIndices:
 
     # Function to compute EVI
     def compute_evi(self, image):
+        logger.info(f'Compute EVI index')
         evi = image.expression(
             '2.5 * ((NIR - RED) / (NIR + 6 * RED - 7.5 * BLUE + 1))', {
                 'NIR': image.select('B8'),
@@ -230,6 +268,7 @@ class ComputeIndices:
 
     # Function to compute VARI
     def compute_vari(self, image):
+        logger.info(f'Compute VARI index')
         vari = image.expression(
             '(GREEN - RED) / (GREEN + RED - BLUE)', {
                 'GREEN': image.select('B3'),
@@ -240,6 +279,7 @@ class ComputeIndices:
 
     # Function to compute GCI
     def compute_gci(self, image):
+        logger.info(f'Compute GCI index')
         gci = image.expression(
             '(NIR / GREEN) - 1', {
                 'NIR': image.select('B8'),
@@ -268,6 +308,7 @@ class ComputeIndices:
     
         # Function to extract index values and save to JSON
     def extract_and_save_indices(self,image, aoi, index_name):
+        logger.info(f'Extracting indices for {index_name}')
         stats = image.reduceRegion(
             reducer=ee.Reducer.minMax().combine(
                 reducer2=ee.Reducer.mean(),
@@ -323,14 +364,19 @@ class ComputeIndices:
             monthly_indices_list = monthly_indices.toList(monthly_indices.size())
             for i in range(monthly_indices.size().getInfo()):
                 index_data.append(self.extract_and_save_indices(ee.Image(monthly_indices_list.get(i)), self.roi, index_name))
+                logger.info(f'Added stats for {index_name}')
+
         return index_data
     
     def get_vegetation_data(self, months, sentil_collection):
+        logger.info(f'Computing vegetation indexes')
         monthly_medians = ee.ImageCollection.fromImages(months.map(lambda date: self.get_monthly_median(date, sentil_collection)))
         aggregate_vegetation_data = self.aggregate_data(self.get_vegetation_indices(monthly_medians))
         return aggregate_vegetation_data
     
     def get_weather_data(self, months, weather_collection):
+        logger.info(f'Computing weather indexes')
+
         monthly_medians = {}
         for collection_name, collection in weather_collection.items():
             monthly_medians[collection_name] = ee.ImageCollection.fromImages(months.map(lambda date: self.get_monthly_median(date, collection)))
@@ -338,6 +384,7 @@ class ComputeIndices:
         return aggregate_weather_data
     
     def aggregate_data(self, index_data):
+        logger.info(f'Aggreagate indexes responses')
         aggregated_data = defaultdict(dict)
         for entry in index_data:
             date = entry.pop('date')
@@ -374,6 +421,8 @@ class ComputeIndices:
         print(f'Aggregated data saved to {output_file}')
 
         print('Index data saved to monthly_indices.json')
+
+        return aggregated_data
 
 
 
