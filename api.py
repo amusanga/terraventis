@@ -57,14 +57,13 @@ app.add_middleware(
 
 logger.info("Starting the API")
 
+field = Field("/home/cesaire/Projects/terraventis/farmland/6.geojson")
 
 @app.get("/indices", response_model=Dict[str, Any])
 async def get_indices(start_date: str, end_date:str):
-
     try:
-        field = Field("/home/cesaire/Projects/terraventis/farmland/3.geojson")
         aggregated_data = field.computeIndexes(start_date, end_date)
-        return aggregated_data
+        return {"response": aggregated_data}
     except:
         raise HTTPException(status_code=404, detail="Date not found")
 

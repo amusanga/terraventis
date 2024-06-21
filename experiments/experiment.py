@@ -126,15 +126,21 @@ ee.Initialize(project='ee-terraventis')
 
 # print('Index data saved to monthly_indices.json')
 
+file_path = "/home/cesaire/Projects/terraventis/farmland/6.geojson"
+with open(file_path) as f:
+    geojson = json.load(f)
+polygon_coords =  geojson['features'][0]['geometry']['coordinates']
 
-# Define the Area of Interest (AOI) - replace with your coordinates
-latitude = 37.7749  # Example latitude
-longitude = -122.4194  # Example longitude
-aoi = ee.Geometry.Point([longitude, latitude]).buffer(10000)  # 10 km buffer around the point
+aoi = ee.Geometry.Polygon(polygon_coords)
 
-# Define the date range
+# # Define the Area of Interest (AOI) - replace with your coordinates
+# latitude = 37.7749  # Example latitude
+# longitude = -122.4194  # Example longitude
+# aoi = ee.Geometry.Point([longitude, latitude]).buffer(100)  # 10 km buffer around the point
+
+# # Define the date range
 start_date = '2022-01-01'  # Replace with your start date
-end_date = '2022-12-31'  # Replace with your end date
+end_date = '2022-02-02'  # Replace with your end date
 
 # Function to extract and print data for a given dataset and variable
 def extract_climate_data(collection, variable, reducer, scale=1000):
@@ -158,6 +164,6 @@ extract_climate_data(modis_et_collection, 'ET', ee.Reducer.mean())
 modis_temp_collection = ee.ImageCollection('MODIS/061/MOD11A2')
 extract_climate_data(modis_temp_collection, 'LST_Day_1km', ee.Reducer.mean())
 
-# Extract temperature data from ERA5
-era5_collection = ee.ImageCollection('ECMWF/ERA5_LAND/DAILY_AGGR')
-extract_climate_data(era5_collection, 'mean_2m_air_temperature', ee.Reducer.mean())
+# # Extract temperature data from ERA5
+# era5_collection = ee.ImageCollection('ECMWF/ERA5_LAND/DAILY_AGGR')
+# extract_climate_data(era5_collection, 'mean_2m_air_temperature', ee.Reducer.mean())
