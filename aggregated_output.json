@@ -1,0 +1,5178 @@
+{
+    "weather": {
+        "2018-02-01": {
+            "production": {
+                "mean": {}
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 226.6711020973487
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14989.996636327665
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": 0.33346087213022374,
+                    "v_component_of_wind_10m": -0.3664903833876409
+                }
+            }
+        },
+        "2018-03-01": {
+            "production": {
+                "mean": {}
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 3.620313353261598
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 209.97518673328054
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14919.989488523946
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.23143607456040002,
+                    "v_component_of_wind_10m": -0.11534494762880741
+                }
+            }
+        },
+        "2018-04-01": {
+            "production": {
+                "mean": {}
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 8.88096475499772
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 204.98241491887612
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14949.971619014645
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.10224917620251452,
+                    "v_component_of_wind_10m": -0.018320063223170157
+                }
+            }
+        },
+        "2018-05-01": {
+            "production": {
+                "mean": {}
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 7.614238813489993
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 214.07777255639087
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14903.996005639096
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.3957071931502746,
+                    "v_component_of_wind_10m": 0.17590283844735477
+                }
+            }
+        },
+        "2018-06-01": {
+            "production": {
+                "mean": {}
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 306.6227616739217
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14841.99789770479
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.970413346888758,
+                    "v_component_of_wind_10m": 0.597288602974639
+                }
+            }
+        },
+        "2018-07-01": {
+            "production": {
+                "mean": {}
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 255.9409378709933
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14935.994534032456
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.8578233234549935,
+                    "v_component_of_wind_10m": 0.5876389321820867
+                }
+            }
+        },
+        "2018-08-01": {
+            "production": {
+                "mean": {}
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 205.59760214681447
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14957.996215868625
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.9970856593161843,
+                    "v_component_of_wind_10m": 0.7752319609972653
+                }
+            }
+        },
+        "2018-09-01": {
+            "production": {
+                "mean": {}
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 185.2820847348635
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 15099
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.5904423013681358,
+                    "v_component_of_wind_10m": 0.4251442397736411
+                }
+            }
+        },
+        "2018-10-01": {
+            "production": {
+                "mean": {}
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 191.3307095864662
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 15059.990329442026
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.9336688229346115,
+                    "v_component_of_wind_10m": 0.21936068697376104
+                }
+            }
+        },
+        "2018-11-01": {
+            "production": {
+                "mean": {}
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 2.4501715240492197
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 237.0561931143648
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 15175.996636327665
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.5755744873415958,
+                    "v_component_of_wind_10m": 0.1235829175006052
+                }
+            }
+        },
+        "2018-12-01": {
+            "production": {
+                "mean": {}
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 210.64261599722988
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14870.011772853188
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.5551269878905442,
+                    "v_component_of_wind_10m": -0.0033174462772708278
+                }
+            }
+        },
+        "2019-01-01": {
+            "production": {
+                "mean": {}
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 3.243126618125645
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 188.4341981598735
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14918.52627869015
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.4248357308506887,
+                    "v_component_of_wind_10m": -0.20223527103210417
+                }
+            }
+        },
+        "2019-02-01": {
+            "production": {
+                "mean": {}
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 261.14322813612984
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14963.988227146823
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.2676364892700341,
+                    "v_component_of_wind_10m": -0.24973725954451786
+                }
+            }
+        },
+        "2019-03-01": {
+            "production": {
+                "mean": {}
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 215.26135857736443
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 15021.989068064908
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.3148643922135903,
+                    "v_component_of_wind_10m": -0.1506253948633958
+                }
+            }
+        },
+        "2019-04-01": {
+            "production": {
+                "mean": {}
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 217.77655075187982
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 15008.003994360912
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.3744579710694313,
+                    "v_component_of_wind_10m": -0.18962489086788165
+                }
+            }
+        },
+        "2019-05-01": {
+            "production": {
+                "mean": {}
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 4.059909940703521
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 256.253103977048
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14902.988227146818
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.6052707316865723,
+                    "v_component_of_wind_10m": 0.22133765197123767
+                }
+            }
+        },
+        "2019-06-01": {
+            "production": {
+                "mean": {}
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 237.48893203403262
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14762.9941135734
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -1.0079585785853842,
+                    "v_component_of_wind_10m": 0.5702780062589996
+                }
+            }
+        },
+        "2019-07-01": {
+            "production": {
+                "mean": {}
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 228.13170261179272
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14867.494323802934
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.461741051790567,
+                    "v_component_of_wind_10m": 0.4338525617199123
+                }
+            }
+        },
+        "2019-08-01": {
+            "production": {
+                "mean": {}
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 206.59907375346265
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14888.994113573406
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.6067327116146157,
+                    "v_component_of_wind_10m": 0.5341400170826275
+                }
+            }
+        },
+        "2019-09-01": {
+            "production": {
+                "mean": {}
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 214.58372699841712
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14982.998107934305
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.6986230174181506,
+                    "v_component_of_wind_10m": 0.5098972130287233
+                }
+            }
+        },
+        "2019-10-01": {
+            "production": {
+                "mean": {}
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 212.4814317867037
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 15034.492852196285
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.6317356163963844,
+                    "v_component_of_wind_10m": 0.2421360755792091
+                }
+            }
+        },
+        "2019-11-01": {
+            "production": {
+                "mean": {}
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 208.37274930747927
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14813.000420459035
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.6906461540839101,
+                    "v_component_of_wind_10m": 0.1726665221250026
+                }
+            }
+        },
+        "2019-12-01": {
+            "production": {
+                "mean": {}
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 3.0948047432495653
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 239.99593762366456
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14897.984232785908
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.492199685796555,
+                    "v_component_of_wind_10m": 0.038588851917318395
+                }
+            }
+        },
+        "2020-01-01": {
+            "production": {
+                "mean": {}
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 284.21147234863463
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14946.00231252474
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": 0.0058765082769100625,
+                    "v_component_of_wind_10m": -0.10341833442618574
+                }
+            }
+        },
+        "2020-02-01": {
+            "production": {
+                "mean": {}
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 263.2608701028888
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14949.49831816383
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": 0.15239161994397143,
+                    "v_component_of_wind_10m": -0.42494282441314823
+                }
+            }
+        },
+        "2020-03-01": {
+            "production": {
+                "mean": {}
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 215.80177211119906
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14948.999579540967
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.37608592703008764,
+                    "v_component_of_wind_10m": -0.0814123933948353
+                }
+            }
+        },
+        "2020-04-01": {
+            "production": {
+                "mean": {}
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 3.023706002325281
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 214.28362435694496
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14941.984443015439
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.29508630206270187,
+                    "v_component_of_wind_10m": 0.1262882736414109
+                }
+            }
+        },
+        "2020-05-01": {
+            "production": {
+                "mean": {}
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 215.4868421052631
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14960.005886426592
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.656067681932118,
+                    "v_component_of_wind_10m": 0.23485014215750524
+                }
+            }
+        },
+        "2020-06-01": {
+            "production": {
+                "mean": {}
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 249.3870696478038
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14904.482340720213
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -1.1167539892308638,
+                    "v_component_of_wind_10m": 0.703973297715232
+                }
+            }
+        },
+        "2020-07-01": {
+            "production": {
+                "mean": {}
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 228.15539671547305
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 15001.992011278198
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.8384174335256098,
+                    "v_component_of_wind_10m": 0.5691602927321934
+                }
+            }
+        },
+        "2020-08-01": {
+            "production": {
+                "mean": {}
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 227.84122106252485
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 15017.97098832607
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.6034626950376079,
+                    "v_component_of_wind_10m": 0.7539775753702096
+                }
+            }
+        },
+        "2020-09-01": {
+            "production": {
+                "mean": {}
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 210.43953427977846
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 15107.011142164629
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.5041602269560003,
+                    "v_component_of_wind_10m": 0.47329597401361034
+                }
+            }
+        },
+        "2020-10-01": {
+            "production": {
+                "mean": {}
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 198.97455604471705
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 15040.487386228728
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.5184479936920013,
+                    "v_component_of_wind_10m": 0.3140993165057413
+                }
+            }
+        },
+        "2020-11-01": {
+            "production": {
+                "mean": {}
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 195.02872724574596
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 15067.97855658884
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.6335111485513822,
+                    "v_component_of_wind_10m": 0.2380477475235085
+                }
+            }
+        },
+        "2020-12-01": {
+            "production": {
+                "mean": {}
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 259.1021839137316
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14947.995164721018
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.3852512180026844,
+                    "v_component_of_wind_10m": -0.0972106277730377
+                }
+            }
+        },
+        "2021-01-01": {
+            "production": {
+                "mean": {}
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 279.61079095765734
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14927.99159081916
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.3377740295777572,
+                    "v_component_of_wind_10m": -0.3418348992449541
+                }
+            }
+        },
+        "2021-02-01": {
+            "production": {
+                "mean": {
+                    "Gpp": 550.7673748516029
+                }
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 202.48325583696086
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14831
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.2912307817254517,
+                    "v_component_of_wind_10m": -0.3676414386611435
+                }
+            }
+        },
+        "2021-03-01": {
+            "production": {
+                "mean": {
+                    "Gpp": 454.69683048080765
+                }
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 5.293877811902683
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 191.78824940641078
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14924.999789770483
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": 0.08593418926409438,
+                    "v_component_of_wind_10m": -0.2732609088585822
+                }
+            }
+        },
+        "2021-04-01": {
+            "production": {
+                "mean": {
+                    "Gpp": 463.3236050652952
+                }
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 232.28672215077165
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14944.9869657697
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.6647710815325644,
+                    "v_component_of_wind_10m": 0.022301177139561115
+                }
+            }
+        },
+        "2021-05-01": {
+            "production": {
+                "mean": {
+                    "Gpp": 491.7170805302731
+                }
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 249.83422783933523
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14895.99621586862
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.9002265227594191,
+                    "v_component_of_wind_10m": 0.4698023960066061
+                }
+            }
+        },
+        "2021-06-01": {
+            "production": {
+                "mean": {
+                    "Gpp": 495.9625358626829
+                }
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 252.6125408092599
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14861.995374950537
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -1.0135816121664318,
+                    "v_component_of_wind_10m": 0.5623058485624717
+                }
+            }
+        },
+        "2021-07-01": {
+            "production": {
+                "mean": {
+                    "Gpp": 607.378654283736
+                }
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 249.1119657696874
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14906.499579540961
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -1.0738873619499252,
+                    "v_component_of_wind_10m": 0.7006089557062984
+                }
+            }
+        },
+        "2021-08-01": {
+            "production": {
+                "mean": {
+                    "Gpp": 477.809952512861
+                }
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 206.59226602690927
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 15016.492852196277
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.7394927984459606,
+                    "v_component_of_wind_10m": 0.8211720099564843
+                }
+            }
+        },
+        "2021-09-01": {
+            "production": {
+                "mean": {
+                    "Gpp": 453.21329639889217
+                }
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 215.7799948060941
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 15029.982130490707
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.6870316313558815,
+                    "v_component_of_wind_10m": 0.4428308473824051
+                }
+            }
+        },
+        "2021-10-01": {
+            "production": {
+                "mean": {
+                    "Gpp": 473.07491590819154
+                }
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 227.90148891966754
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14998.987386228735
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.6081135901620645,
+                    "v_component_of_wind_10m": 0.2831377157259154
+                }
+            }
+        },
+        "2021-11-01": {
+            "production": {
+                "mean": {
+                    "Gpp": 478.55303967154737
+                }
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 259.4715695488722
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 15008.527960526322
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.5345359869579448,
+                    "v_component_of_wind_10m": 0.13290828074377853
+                }
+            }
+        },
+        "2021-12-01": {
+            "production": {
+                "mean": {
+                    "Gpp": 498.4238350811239
+                }
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 246.09838741590823
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14975.994534032461
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.6006942106777703,
+                    "v_component_of_wind_10m": -0.09333112409497782
+                }
+            }
+        },
+        "2022-01-01": {
+            "production": {
+                "mean": {
+                    "Gpp": 388.17006949940645
+                }
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 3.877904582003573
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 197.5444944598338
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14759.994744261972
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.7963906617828014,
+                    "v_component_of_wind_10m": -0.07774905746616181
+                }
+            }
+        },
+        "2022-02-01": {
+            "production": {
+                "mean": {
+                    "Gpp": 533.5969652750296
+                }
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 3.4712517682947954
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 225.45556737237845
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14835.00798872181
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": 0.11061880346684944,
+                    "v_component_of_wind_10m": -0.3736989490551225
+                }
+            }
+        },
+        "2022-03-01": {
+            "production": {
+                "mean": {
+                    "Gpp": 533.5969652750296
+                }
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 7.647010824486446
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 211.69120993272645
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14976.995795409577
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": 0.27399190081424196,
+                    "v_component_of_wind_10m": -0.2235181945258283
+                }
+            }
+        },
+        "2022-04-01": {
+            "production": {
+                "mean": {
+                    "Gpp": 533.5969652750296
+                }
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 221.9713345864663
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14883.990329442035
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.3204527647413747,
+                    "v_component_of_wind_10m": -0.07622163366369612
+                }
+            }
+        },
+        "2022-05-01": {
+            "production": {
+                "mean": {
+                    "Gpp": 533.5969652750296
+                }
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 249.2847497032054
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 15021.985283933529
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.7441854247214763,
+                    "v_component_of_wind_10m": 0.28758651509835853
+                }
+            }
+        },
+        "2022-06-01": {
+            "production": {
+                "mean": {
+                    "Gpp": 533.5969652750296
+                }
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 250.56094801147617
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14812.97855658884
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.9750727391969464,
+                    "v_component_of_wind_10m": 0.4935956585043231
+                }
+            }
+        },
+        "2022-07-01": {
+            "production": {
+                "mean": {
+                    "Gpp": 533.5969652750296
+                }
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 277.08302829442033
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14873.493482884847
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -1.087093861998425,
+                    "v_component_of_wind_10m": 0.7253412701486298
+                }
+            }
+        },
+        "2022-08-01": {
+            "production": {
+                "mean": {
+                    "Gpp": 533.5969652750296
+                }
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 219.0739204095765
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14971.99684655719
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.9714275154252819,
+                    "v_component_of_wind_10m": 0.7607431844173671
+                }
+            }
+        },
+        "2022-09-01": {
+            "production": {
+                "mean": {
+                    "Gpp": 533.5969652750296
+                }
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 191.40378907795812
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14972.996636327664
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.4400679438995697,
+                    "v_component_of_wind_10m": 0.5410596828963263
+                }
+            }
+        },
+        "2022-10-01": {
+            "production": {
+                "mean": {
+                    "Gpp": 533.5969652750296
+                }
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 197.6895280965572
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14953.983181638301
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.5544321222365673,
+                    "v_component_of_wind_10m": 0.29368314819424957
+                }
+            }
+        },
+        "2022-11-01": {
+            "production": {
+                "mean": {
+                    "Gpp": 533.5969652750296
+                }
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 2.5621163920717933
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 235.69437574198665
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14961.998528393357
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.669575980118152,
+                    "v_component_of_wind_10m": 0.16440030642992823
+                }
+            }
+        },
+        "2022-12-01": {
+            "production": {
+                "mean": {
+                    "Gpp": 533.5969652750296
+                }
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 6.96357552927735
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 197.6588407696874
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14901.993272655325
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.4157065037839913,
+                    "v_component_of_wind_10m": -0.08871216206903357
+                }
+            }
+        },
+        "2023-01-01": {
+            "production": {
+                "mean": {
+                    "Gpp": 533.5969652750296
+                }
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 3.053938868633597
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 226.90632419865452
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14865.496005639105
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.22081713598772357,
+                    "v_component_of_wind_10m": -0.27064539374096375
+                }
+            }
+        },
+        "2023-02-01": {
+            "production": {
+                "mean": {
+                    "Gpp": 609.0593403739614
+                }
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 269.76954516224777
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14923.511772853186
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.1420205420600822,
+                    "v_component_of_wind_10m": -0.4014249205954896
+                }
+            }
+        },
+        "2023-03-01": {
+            "production": {
+                "mean": {
+                    "Gpp": 432.55213073802946
+                }
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 210.44191481994466
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14891.004625049465
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": 0.16431731366769978,
+                    "v_component_of_wind_10m": -0.33260309014529926
+                }
+            }
+        },
+        "2023-04-01": {
+            "production": {
+                "mean": {
+                    "Gpp": 426.5897680055402
+                }
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 5.134932419918344
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 223.12341091214884
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14833.966783735657
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": 0.08495562273088603,
+                    "v_component_of_wind_10m": -0.10080595356664654
+                }
+            }
+        },
+        "2023-05-01": {
+            "production": {
+                "mean": {
+                    "Gpp": 433.2824000791452
+                }
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 2.5591841780200615
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 210.55901266323704
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14867.001261377123
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.8384032905487029,
+                    "v_component_of_wind_10m": 0.272476650646224
+                }
+            }
+        },
+        "2023-06-01": {
+            "production": {
+                "mean": {
+                    "Gpp": 639.0301370201826
+                }
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 301.44661406806483
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14910.007147803724
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.9758310077719066,
+                    "v_component_of_wind_10m": 0.5653236542266098
+                }
+            }
+        },
+        "2023-07-01": {
+            "production": {
+                "mean": {
+                    "Gpp": 548.8024337158687
+                }
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 238.40737534626038
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14982.481710031658
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.9094504247006866,
+                    "v_component_of_wind_10m": 0.6419539922515899
+                }
+            }
+        },
+        "2023-08-01": {
+            "production": {
+                "mean": {
+                    "Gpp": 561.9702154234268
+                }
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 200.2518858824694
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 15016.99096013058
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -1.1028931633084182,
+                    "v_component_of_wind_10m": 0.8410012236277989
+                }
+            }
+        },
+        "2023-09-01": {
+            "production": {
+                "mean": {
+                    "Gpp": 453.18060570834996
+                }
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 181.35334017609816
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 15098.484022556388
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.9654919516677016,
+                    "v_component_of_wind_10m": 0.6597517605857696
+                }
+            }
+        },
+        "2023-10-01": {
+            "production": {
+                "mean": {
+                    "Gpp": 387.2915017807676
+                }
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 185.307250445192
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 15013.00672734468
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.41380297489019224,
+                    "v_component_of_wind_10m": 0.1466000020310387
+                }
+            }
+        },
+        "2023-11-01": {
+            "production": {
+                "mean": {
+                    "Gpp": 417.7165858725761
+                }
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 217.8054758607045
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14877.990329442031
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.6632937639814097,
+                    "v_component_of_wind_10m": 0.0647348925243297
+                }
+            }
+        },
+        "2023-12-01": {
+            "production": {
+                "mean": {
+                    "Gpp": 453.7006826276217
+                }
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 308.1006628413139
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14948.496426098154
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.5980013428063536,
+                    "v_component_of_wind_10m": 0.01251634262485481
+                }
+            }
+        },
+        "2024-01-01": {
+            "production": {
+                "mean": {
+                    "Gpp": 556.4271060051445
+                }
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0.0007237012667244587
+                }
+            },
+            "evapotranspiration": {
+                "mean": {
+                    "ET": 278.09859764542927
+                }
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14812.493693114373
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.26094890700655926,
+                    "v_component_of_wind_10m": -0.10572543568381382
+                }
+            }
+        },
+        "2024-02-01": {
+            "production": {
+                "mean": {
+                    "Gpp": 419.1428014938661
+                }
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 2.0482747435074438
+                }
+            },
+            "evapotranspiration": {
+                "mean": {}
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14865.99243173724
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": 0.3441054955549413,
+                    "v_component_of_wind_10m": -0.4256698692480603
+                }
+            }
+        },
+        "2024-03-01": {
+            "production": {
+                "mean": {
+                    "Gpp": 513.1279803126238
+                }
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 1.7769469059192955
+                }
+            },
+            "evapotranspiration": {
+                "mean": {}
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14849.487596458252
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.16389537953619734,
+                    "v_component_of_wind_10m": -0.323554957578151
+                }
+            }
+        },
+        "2024-04-01": {
+            "production": {
+                "mean": {
+                    "Gpp": 535.2924539968344
+                }
+            },
+            "precipitation": {
+                "mean": {
+                    "precipitation": 0
+                }
+            },
+            "evapotranspiration": {
+                "mean": {}
+            },
+            "temperature": {
+                "mean": {
+                    "LST_Day_1km": 14930.003573901864
+                }
+            },
+            "wind": {
+                "speed": {
+                    "u_component_of_wind_10m": -0.7112351245701474,
+                    "v_component_of_wind_10m": 0.08745364302983308
+                }
+            }
+        }
+    },
+    "vegetation": {
+        "2018-02-01": {
+            "NDVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "SAVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "EVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "NDRE": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "NDWI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "ARVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "VARI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "GCI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            }
+        },
+        "2018-03-01": {
+            "NDVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "SAVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "EVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "NDRE": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "NDWI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "ARVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "VARI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "GCI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            }
+        },
+        "2018-04-01": {
+            "NDVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "SAVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "EVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "NDRE": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "NDWI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "ARVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "VARI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "GCI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            }
+        },
+        "2018-05-01": {
+            "NDVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "SAVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "EVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "NDRE": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "NDWI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "ARVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "VARI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "GCI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            }
+        },
+        "2018-06-01": {
+            "NDVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "SAVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "EVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "NDRE": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "NDWI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "ARVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "VARI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "GCI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            }
+        },
+        "2018-07-01": {
+            "NDVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "SAVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "EVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "NDRE": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "NDWI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "ARVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "VARI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "GCI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            }
+        },
+        "2018-08-01": {
+            "NDVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "SAVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "EVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "NDRE": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "NDWI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "ARVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "VARI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "GCI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            }
+        },
+        "2018-09-01": {
+            "NDVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "SAVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "EVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "NDRE": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "NDWI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "ARVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "VARI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "GCI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            }
+        },
+        "2018-10-01": {
+            "NDVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "SAVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "EVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "NDRE": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "NDWI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "ARVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "VARI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "GCI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            }
+        },
+        "2018-11-01": {
+            "NDVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "SAVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "EVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "NDRE": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "NDWI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "ARVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "VARI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "GCI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            }
+        },
+        "2018-12-01": {
+            "NDVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "SAVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "EVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "NDRE": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "NDWI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "ARVI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "VARI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            },
+            "GCI": {
+                "min": null,
+                "max": null,
+                "mean": null
+            }
+        },
+        "2019-01-01": {
+            "NDVI": {
+                "min": 0.11950709137409905,
+                "max": 0.26337924508463884,
+                "mean": 0.19895528627180606
+            },
+            "SAVI": {
+                "min": 0.17925021795989537,
+                "max": 0.39504809966882193,
+                "mean": 0.29841677986275356
+            },
+            "EVI": {
+                "min": -504,
+                "max": 45.27322404371585,
+                "mean": -7.188149184809678
+            },
+            "NDRE": {
+                "min": 0.0454890891325589,
+                "max": 0.17705833374148994,
+                "mean": 0.12837375479204713
+            },
+            "NDWI": {
+                "min": -0.2112676056338028,
+                "max": -0.10233516483516483,
+                "mean": -0.16943351383471394
+            },
+            "ARVI": {
+                "min": 0.07292144802472536,
+                "max": 0.1740642499263189,
+                "mean": 0.11861510075400847
+            },
+            "VARI": {
+                "min": 0.008138351983723296,
+                "max": 0.14453125,
+                "mean": 0.06179396488702922
+            },
+            "GCI": {
+                "min": 0.2280030604437644,
+                "max": 0.5357142857142858,
+                "mean": 0.40899930619600333
+            }
+        },
+        "2019-02-01": {
+            "NDVI": {
+                "min": 0.3453573814295257,
+                "max": 0.6879462410751785,
+                "mean": 0.47805053253653745
+            },
+            "SAVI": {
+                "min": 0.5179784036513414,
+                "max": 1.0318110236220472,
+                "mean": 0.7169982046227856
+            },
+            "EVI": {
+                "min": -141.57738095238096,
+                "max": 468.4375,
+                "mean": 5.319773206504285
+            },
+            "NDRE": {
+                "min": 0.1962577078460557,
+                "max": 0.4677257372409386,
+                "mean": 0.32887095574430847
+            },
+            "NDWI": {
+                "min": -0.6073799077511531,
+                "max": -0.3111156269051006,
+                "mean": -0.42161341128013446
+            },
+            "ARVI": {
+                "min": 0.14035087719298245,
+                "max": 0.5214941233295766,
+                "mean": 0.31328502778365713
+            },
+            "VARI": {
+                "min": -0.11538461538461539,
+                "max": 0.36507936507936506,
+                "mean": 0.13696684070712933
+            },
+            "GCI": {
+                "min": 0.9032448377581122,
+                "max": 3.093982808022923,
+                "mean": 1.474541098460396
+            }
+        },
+        "2019-03-01": {
+            "NDVI": {
+                "min": 0.1360062893081761,
+                "max": 0.6128056914184081,
+                "mean": 0.3860298014650402
+            },
+            "SAVI": {
+                "min": 0.2039960694398952,
+                "max": 0.9191268006402276,
+                "mean": 0.5789885780842353
+            },
+            "EVI": {
+                "min": -2815,
+                "max": 132.63513513513513,
+                "mean": -7.180159792514796
+            },
+            "NDRE": {
+                "min": 0.05553703580238683,
+                "max": 0.4636429666693568,
+                "mean": 0.28167975609400964
+            },
+            "NDWI": {
+                "min": -0.5253153910849453,
+                "max": -0.11272996666255093,
+                "mean": -0.3271126804734438
+            },
+            "ARVI": {
+                "min": 0.04957474523025056,
+                "max": 0.4497314375987362,
+                "mean": 0.2624808212372469
+            },
+            "VARI": {
+                "min": -0.03155680224403927,
+                "max": 0.7910085054678008,
+                "mean": 0.15765029027301386
+            },
+            "GCI": {
+                "min": 0.25410520456443075,
+                "max": 2.2133238837703755,
+                "mean": 1.071641634702091
+            }
+        },
+        "2019-04-01": {
+            "NDVI": {
+                "min": 0.4465488750476675,
+                "max": 0.7131067961165048,
+                "mean": 0.6066787249072694
+            },
+            "SAVI": {
+                "min": 0.6697381799694967,
+                "max": 1.0695303967965053,
+                "mean": 0.9099042651413306
+            },
+            "EVI": {
+                "min": 1.2203849093309247,
+                "max": 2.754259163655137,
+                "mean": 2.201249041953632
+            },
+            "NDRE": {
+                "min": 0.2756897675429068,
+                "max": 0.4972422571064913,
+                "mean": 0.40389454336634883
+            },
+            "NDWI": {
+                "min": -0.626079944706831,
+                "max": -0.42871561948019177,
+                "mean": -0.5348443841354608
+            },
+            "ARVI": {
+                "min": 0.24833836858006042,
+                "max": 0.5494568324757004,
+                "mean": 0.42668208398566065
+            },
+            "VARI": {
+                "min": 0.009464870768110666,
+                "max": 0.3052007299270073,
+                "mean": 0.17770971451458611
+            },
+            "GCI": {
+                "min": 1.5008833922261484,
+                "max": 3.348736906962415,
+                "mean": 2.3227935931181642
+            }
+        },
+        "2019-05-01": {
+            "NDVI": {
+                "min": 0.19120670567768464,
+                "max": 0.40186205586167584,
+                "mean": 0.26385079263789984
+            },
+            "SAVI": {
+                "min": 0.2867873804064205,
+                "max": 0.6027358221715589,
+                "mean": 0.39574190892219807
+            },
+            "EVI": {
+                "min": -84.49074074074075,
+                "max": 839.5833333333333,
+                "mean": 4.993909897497386
+            },
+            "NDRE": {
+                "min": 0.11550529004013134,
+                "max": 0.2894174009752759,
+                "mean": 0.1867383316242121
+            },
+            "NDWI": {
+                "min": -0.373031893419459,
+                "max": -0.1867359413202934,
+                "mean": -0.24219725292723723
+            },
+            "ARVI": {
+                "min": 0.07789397764154346,
+                "max": 0.2955130356943046,
+                "mean": 0.15091831751316223
+            },
+            "VARI": {
+                "min": -0.12375571697605596,
+                "max": 0.24730188097440642,
+                "mean": 0.04670814994868017
+            },
+            "GCI": {
+                "min": 0.45922585494175117,
+                "max": 1.1899549259497748,
+                "mean": 0.6439636064712065
+            }
+        },
+        "2019-06-01": {
+            "NDVI": {
+                "min": 0.04810725552050473,
+                "max": 0.25862577410793275,
+                "mean": 0.10129795363516243
+            },
+            "SAVI": {
+                "min": 0.0721573266301937,
+                "max": 0.3879100626612606,
+                "mean": 0.15193853922482756
+            },
+            "EVI": {
+                "min": -1.5033986405437825,
+                "max": -0.24507592843181478,
+                "mean": -0.35249402121155327
+            },
+            "NDRE": {
+                "min": 0.018619084561675717,
+                "max": 0.2295268138801262,
+                "mean": 0.07299077475147744
+            },
+            "NDWI": {
+                "min": -0.1809311402286033,
+                "max": -0.0228310502283105,
+                "mean": -0.055573758680326726
+            },
+            "ARVI": {
+                "min": 0.02778896496173983,
+                "max": 0.23721787194841087,
+                "mean": 0.09206096548404166
+            },
+            "VARI": {
+                "min": 0.007922535211267605,
+                "max": 0.4613506916192026,
+                "mean": 0.10819561642706342
+            },
+            "GCI": {
+                "min": 0.04672897196261672,
+                "max": 0.44179714091218525,
+                "mean": 0.11899151305441626
+            }
+        },
+        "2019-07-01": {
+            "NDVI": {
+                "min": -0.02357911953114352,
+                "max": 0.035906878863606474,
+                "mean": 0.009973510166905947
+            },
+            "SAVI": {
+                "min": -0.03536747418992129,
+                "max": 0.05385854733173314,
+                "mean": 0.01495979895212203
+            },
+            "EVI": {
+                "min": -1.78743961352657,
+                "max": 4.948453608247423,
+                "mean": -0.03390910835898969
+            },
+            "NDRE": {
+                "min": -0.058112016828819356,
+                "max": 0.023686089466985378,
+                "mean": -0.008655998131531213
+            },
+            "NDWI": {
+                "min": -0.01180270841098273,
+                "max": 0.025357307514983864,
+                "mean": 0.005795430501291123
+            },
+            "ARVI": {
+                "min": -0.03700787401574803,
+                "max": 0.05262506956898151,
+                "mean": 0.01886217481506893
+            },
+            "VARI": {
+                "min": -0.05359511806845317,
+                "max": 0.09696294232376707,
+                "mean": 0.033770907494905335
+            },
+            "GCI": {
+                "min": -0.049460431654676285,
+                "max": 0.023887352275584695,
+                "mean": -0.01136631237817386
+            }
+        },
+        "2019-08-01": {
+            "NDVI": {
+                "min": 0.5111855485105874,
+                "max": 0.7210599721059973,
+                "mean": 0.6457212204039346
+            },
+            "SAVI": {
+                "min": 0.7666866028708135,
+                "max": 1.0814528397565923,
+                "mean": 0.9684502601272037
+            },
+            "EVI": {
+                "min": 1.6284020069940701,
+                "max": 3.967313585291113,
+                "mean": 2.6151038083310962
+            },
+            "NDRE": {
+                "min": 0.31565249721155036,
+                "max": 0.5506735751295336,
+                "mean": 0.4482605741433187
+            },
+            "NDWI": {
+                "min": -0.6504312531709792,
+                "max": -0.4688324309315563,
+                "mean": -0.5768002011430476
+            },
+            "ARVI": {
+                "min": 0.32259147364887547,
+                "max": 0.5664170279858101,
+                "mean": 0.47440434039749035
+            },
+            "VARI": {
+                "min": 0.023931623931623933,
+                "max": 0.3086816720257235,
+                "mean": 0.19452816370490397
+            },
+            "GCI": {
+                "min": 1.7652901202300053,
+                "max": 3.7213352685050802,
+                "mean": 2.756214232638501
+            }
+        },
+        "2019-09-01": {
+            "NDVI": {
+                "min": -0.023696682464454975,
+                "max": 0.09535759096612297,
+                "mean": 0.019884524734187833
+            },
+            "SAVI": {
+                "min": -0.03554351965472009,
+                "max": 0.14303077827876887,
+                "mean": 0.029825634441195695
+            },
+            "EVI": {
+                "min": -0.21130186974351844,
+                "max": 0.2378525314305131,
+                "mean": -0.06848648168625304
+            },
+            "NDRE": {
+                "min": -0.05878764773160503,
+                "max": 0.06504003049942814,
+                "mean": -0.0023711729238111287
+            },
+            "NDWI": {
+                "min": -0.04093567251461988,
+                "max": 0.026281208935611037,
+                "mean": 0.00456021830867416
+            },
+            "ARVI": {
+                "min": -0.013744552463962454,
+                "max": 0.11347962382445141,
+                "mean": 0.03692993138933254
+            },
+            "VARI": {
+                "min": -0.06330014224751067,
+                "max": 0.19334389857369255,
+                "mean": 0.0544368051923053
+            },
+            "GCI": {
+                "min": -0.05121638924455829,
+                "max": 0.08536585365853666,
+                "mean": -0.008907787440854971
+            }
+        },
+        "2019-10-01": {
+            "NDVI": {
+                "min": 0.2765957446808511,
+                "max": 0.5284834488067744,
+                "mean": 0.3949959958825893
+            },
+            "SAVI": {
+                "min": 0.41485349579344355,
+                "max": 0.7926488982969306,
+                "mean": 0.5924345022825177
+            },
+            "EVI": {
+                "min": -1429.2857142857142,
+                "max": 1940,
+                "mean": 3.1348636633888374
+            },
+            "NDRE": {
+                "min": 0.191094956837801,
+                "max": 0.4049754924627763,
+                "mean": 0.28447801433537667
+            },
+            "NDWI": {
+                "min": -0.48254620123203285,
+                "max": -0.2716336825766395,
+                "mean": -0.3529888774506465
+            },
+            "ARVI": {
+                "min": 0.13805024199124222,
+                "max": 0.3747181323782995,
+                "mean": 0.2521961803822692
+            },
+            "VARI": {
+                "min": -0.018904507998061076,
+                "max": 0.22334238076773943,
+                "mean": 0.09932823130488053
+            },
+            "GCI": {
+                "min": 0.7458710708577518,
+                "max": 1.8650793650793651,
+                "mean": 1.1050074943993389
+            }
+        },
+        "2019-11-01": {
+            "NDVI": {
+                "min": 0.0804780876494024,
+                "max": 0.555762659210935,
+                "mean": 0.22853304934037513
+            },
+            "SAVI": {
+                "min": 0.12071111996414521,
+                "max": 0.8335792498252699,
+                "mean": 0.3427720917577089
+            },
+            "EVI": {
+                "min": -2132.5,
+                "max": 1760,
+                "mean": -2.878890878172798
+            },
+            "NDRE": {
+                "min": 0.03253702302453789,
+                "max": 0.4703791469194313,
+                "mean": 0.16625686936854014
+            },
+            "NDWI": {
+                "min": -0.4967124925283921,
+                "max": -0.05644219540677306,
+                "mean": -0.20103311297997362
+            },
+            "ARVI": {
+                "min": 0.024809629083763204,
+                "max": 0.39948892674616693,
+                "mean": 0.1429903109933047
+            },
+            "VARI": {
+                "min": -0.0515527950310559,
+                "max": 0.2,
+                "mean": 0.06229104457933417
+            },
+            "GCI": {
+                "min": 0.11963696369636967,
+                "max": 1.973871733966746,
+                "mean": 0.562059015432765
+            }
+        },
+        "2019-12-01": {
+            "NDVI": {
+                "min": 0.008048289738430584,
+                "max": 0.08306762879677798,
+                "mean": 0.04619206831996593
+            },
+            "SAVI": {
+                "min": 0.012071928574422602,
+                "max": 0.12459621596677434,
+                "mean": 0.0692852331283824
+            },
+            "EVI": {
+                "min": -0.7531380753138075,
+                "max": -0.05447117566954153,
+                "mean": -0.3146908082987193
+            },
+            "NDRE": {
+                "min": -0.026396761133603237,
+                "max": 0.05829302287447733,
+                "mean": 0.021630376500437642
+            },
+            "NDWI": {
+                "min": -0.05784018722835172,
+                "max": 0.001978891820580475,
+                "mean": -0.02689761781461387
+            },
+            "ARVI": {
+                "min": 0.01110748121528912,
+                "max": 0.07726075504828797,
+                "mean": 0.03633784078785507
+            },
+            "VARI": {
+                "min": -0.0175561797752809,
+                "max": 0.13013698630136986,
+                "mean": 0.040360966819111325
+            },
+            "GCI": {
+                "min": -0.0039499670836076195,
+                "max": 0.12278211497515978,
+                "mean": 0.05563328630535058
+            }
+        },
+        "2020-01-01": {
+            "NDVI": {
+                "min": 0.6790571169537625,
+                "max": 0.8140106513723884,
+                "mean": 0.7765226214220848
+            },
+            "SAVI": {
+                "min": 1.0184537684537684,
+                "max": 1.2208909370199694,
+                "mean": 1.1646435051660862
+            },
+            "EVI": {
+                "min": 2.9934369269375543,
+                "max": 5.619490111984751,
+                "mean": 3.710942477935079
+            },
+            "NDRE": {
+                "min": 0.4733492442322991,
+                "max": 0.6556238841499702,
+                "mean": 0.5896316280519582
+            },
+            "NDWI": {
+                "min": -0.7429664641008328,
+                "max": -0.5805263157894737,
+                "mean": -0.6871408635460647
+            },
+            "ARVI": {
+                "min": 0.5256054369675505,
+                "max": 0.6916022756219751,
+                "mean": 0.6427628668185832
+            },
+            "VARI": {
+                "min": 0.23922603342128407,
+                "max": 0.48928238583411,
+                "mean": 0.3812659613077359
+            },
+            "GCI": {
+                "min": 2.7678795483061482,
+                "max": 5.781085814360771,
+                "mean": 4.440993649567769
+            }
+        },
+        "2020-02-01": {
+            "NDVI": {
+                "min": 0.03292648311098496,
+                "max": 0.06551261005820026,
+                "mean": 0.047682656446655355
+            },
+            "SAVI": {
+                "min": 0.049387972325705166,
+                "max": 0.0982652490207051,
+                "mean": 0.0715214488124979
+            },
+            "EVI": {
+                "min": -34.75409836065574,
+                "max": 79.41176470588235,
+                "mean": 0.7997595859223925
+            },
+            "NDRE": {
+                "min": 0.01181704434867232,
+                "max": 0.05133059474906233,
+                "mean": 0.03467522913235357
+            },
+            "NDWI": {
+                "min": -0.0773955773955774,
+                "max": -0.03430457872829051,
+                "mean": -0.060850409505947015
+            },
+            "ARVI": {
+                "min": -0.014214246009687922,
+                "max": 0.03364674799906753,
+                "mean": 0.0042415686109230155
+            },
+            "VARI": {
+                "min": -0.06118829441324269,
+                "max": 0.03488009965742759,
+                "mean": -0.024507620030226378
+            },
+            "GCI": {
+                "min": 0.07104637336504172,
+                "max": 0.16777629826897478,
+                "mean": 0.1297275242328713
+            }
+        },
+        "2020-03-01": {
+            "NDVI": {
+                "min": 0.284668683517127,
+                "max": 0.44857468643101484,
+                "mean": 0.3701414515639616
+            },
+            "SAVI": {
+                "min": 0.4269613583138173,
+                "max": 0.6728108847674065,
+                "mean": 0.5551643820422536
+            },
+            "EVI": {
+                "min": -707.2972972972973,
+                "max": 116.95121951219512,
+                "mean": -11.375971534084076
+            },
+            "NDRE": {
+                "min": 0.1796755981718792,
+                "max": 0.3595890410958904,
+                "mean": 0.2735158505921244
+            },
+            "NDWI": {
+                "min": -0.3884153005464481,
+                "max": -0.21778338894399857,
+                "mean": -0.30696037496315043
+            },
+            "ARVI": {
+                "min": 0.18698686371100165,
+                "max": 0.3150096628730943,
+                "mean": 0.24917482417304618
+            },
+            "VARI": {
+                "min": 0.10192464082407156,
+                "max": 0.3097153465346535,
+                "mean": 0.15324387528733954
+            },
+            "GCI": {
+                "min": 0.5568365229421259,
+                "max": 1.270192994996426,
+                "mean": 0.890726377312118
+            }
+        },
+        "2020-04-01": {
+            "NDVI": {
+                "min": 0.12123535209725113,
+                "max": 0.5839459566858732,
+                "mean": 0.338031153138802
+            },
+            "SAVI": {
+                "min": 0.18184307068937194,
+                "max": 0.8758319260951624,
+                "mean": 0.5069988084259626
+            },
+            "EVI": {
+                "min": -146.2962962962963,
+                "max": 514.2307692307692,
+                "mean": 4.162712903553609
+            },
+            "NDRE": {
+                "min": -0.011764705882352941,
+                "max": 0.44714856520159824,
+                "mean": 0.23954414593568227
+            },
+            "NDWI": {
+                "min": -0.526144416778395,
+                "max": -0.11780762091931433,
+                "mean": -0.3079636409600607
+            },
+            "ARVI": {
+                "min": 0.023693976591493006,
+                "max": 0.42046633916833875,
+                "mean": 0.21404885996396586
+            },
+            "VARI": {
+                "min": -0.11187297004691447,
+                "max": 0.30226480836236935,
+                "mean": 0.07812503658831879
+            },
+            "GCI": {
+                "min": 0.267079207920792,
+                "max": 2.2206952303961196,
+                "mean": 1.0072461558719703
+            }
+        },
+        "2020-05-01": {
+            "NDVI": {
+                "min": 0.11437673414859727,
+                "max": 0.32356929753186875,
+                "mean": 0.2245326376718977
+            },
+            "SAVI": {
+                "min": 0.17155628628680059,
+                "max": 0.4853210387144892,
+                "mean": 0.3367789691032218
+            },
+            "EVI": {
+                "min": -1704.1666666666665,
+                "max": 1407.5,
+                "mean": -5.162368148713251
+            },
+            "NDRE": {
+                "min": 0.0762690672668167,
+                "max": 0.28875687290652846,
+                "mean": 0.19554446316717994
+            },
+            "NDWI": {
+                "min": -0.29540481400437635,
+                "max": -0.1072084949969369,
+                "mean": -0.2091876302403082
+            },
+            "ARVI": {
+                "min": 0.0503279863293093,
+                "max": 0.2154765649575338,
+                "mean": 0.12822960699550057
+            },
+            "VARI": {
+                "min": -0.0426179604261796,
+                "max": 0.1101871101871102,
+                "mean": 0.03268077135353006
+            },
+            "GCI": {
+                "min": 0.24016468435498628,
+                "max": 0.8385093167701863,
+                "mean": 0.5376308100678587
+            }
+        },
+        "2020-06-01": {
+            "NDVI": {
+                "min": -0.03505207010414021,
+                "max": 0.06397212543554007,
+                "mean": 0.015986168631110832
+            },
+            "SAVI": {
+                "min": -0.05257643585103343,
+                "max": 0.09595484477892757,
+                "mean": 0.023978468420878713
+            },
+            "EVI": {
+                "min": -8.679245283018869,
+                "max": 10.833333333333332,
+                "mean": -0.03513970181956565
+            },
+            "NDRE": {
+                "min": -0.052712779634867576,
+                "max": 0.05995597752882815,
+                "mean": 0.0022944903109525182
+            },
+            "NDWI": {
+                "min": -0.0244874715261959,
+                "max": 0.021636006016429482,
+                "mean": 0.00018012079957353073
+            },
+            "ARVI": {
+                "min": -0.037886023559375995,
+                "max": 0.07607648920071537,
+                "mean": 0.02362418556439696
+            },
+            "VARI": {
+                "min": -0.042772481319247616,
+                "max": 0.10934919061777337,
+                "mean": 0.034877636465824084
+            },
+            "GCI": {
+                "min": -0.04235560588901477,
+                "max": 0.050204319906596684,
+                "mean": -0.00019645720843514998
+            }
+        },
+        "2020-07-01": {
+            "NDVI": {
+                "min": 0.021348450126643347,
+                "max": 0.2574537085469191,
+                "mean": 0.13806203148334265
+            },
+            "SAVI": {
+                "min": 0.03202074413556051,
+                "max": 0.3861603640357759,
+                "mean": 0.20708180145485927
+            },
+            "EVI": {
+                "min": -96.9047619047619,
+                "max": -0.25412824361998715,
+                "mean": -1.6289244434481989
+            },
+            "NDRE": {
+                "min": -0.015005234384087473,
+                "max": 0.21426406707748258,
+                "mean": 0.0957956933856163
+            },
+            "NDWI": {
+                "min": -0.21487770365878311,
+                "max": -0.015275877792977656,
+                "mean": -0.09897628970926725
+            },
+            "ARVI": {
+                "min": 0.005515381786983699,
+                "max": 0.20155390093881514,
+                "mean": 0.09432434752372226
+            },
+            "VARI": {
+                "min": -0.04902988987939171,
+                "max": 0.2268760907504363,
+                "mean": 0.08521091474552063
+            },
+            "GCI": {
+                "min": 0.031025700393609634,
+                "max": 0.547373841400618,
+                "mean": 0.2239681074351592
+            }
+        },
+        "2020-08-01": {
+            "NDVI": {
+                "min": 0.013709677419354839,
+                "max": 0.23455621301775148,
+                "mean": 0.08812605859930679
+            },
+            "SAVI": {
+                "min": 0.02056347966332342,
+                "max": 0.3518135021596355,
+                "mean": 0.13218249896291176
+            },
+            "EVI": {
+                "min": -230.9090909090909,
+                "max": 54.255319148936174,
+                "mean": -1.6665372699713532
+            },
+            "NDRE": {
+                "min": -0.05105105105105105,
+                "max": 0.16470982891647099,
+                "mean": 0.04577407585389752
+            },
+            "NDWI": {
+                "min": -0.20630568882796435,
+                "max": -0.007326007326007326,
+                "mean": -0.07100038481276626
+            },
+            "ARVI": {
+                "min": -0.0113314447592068,
+                "max": 0.15606936416184972,
+                "mean": 0.05617311736817328
+            },
+            "VARI": {
+                "min": -0.06050955414012739,
+                "max": 0.1970260223048327,
+                "mean": 0.037064393023710424
+            },
+            "GCI": {
+                "min": 0.014760147601476037,
+                "max": 0.5198618307426597,
+                "mean": 0.1555591585484657
+            }
+        },
+        "2020-09-01": {
+            "NDVI": {
+                "min": 0.3865313653136531,
+                "max": 0.7153558052434457,
+                "mean": 0.5644978129097887
+            },
+            "SAVI": {
+                "min": 0.5797301971636113,
+                "max": 1.0729220846769998,
+                "mean": 0.8466556325511948
+            },
+            "EVI": {
+                "min": 1.0581387524392707,
+                "max": 107.9646017699115,
+                "mean": 4.573938803036245
+            },
+            "NDRE": {
+                "min": 0.2556390977443609,
+                "max": 0.531978038284612,
+                "mean": 0.4194059731350594
+            },
+            "NDWI": {
+                "min": -0.6405970149253731,
+                "max": -0.3766888023814976,
+                "mean": -0.5048357704184591
+            },
+            "ARVI": {
+                "min": 0.22093974370626193,
+                "max": 0.5657832090144421,
+                "mean": 0.3960113106488094
+            },
+            "VARI": {
+                "min": -0.0809608540925267,
+                "max": 0.43404735062006766,
+                "mean": 0.16184888426417793
+            },
+            "GCI": {
+                "min": 1.2086700955180016,
+                "max": 3.5647840531561465,
+                "mean": 2.0680360343066146
+            }
+        },
+        "2020-10-01": {
+            "NDVI": {
+                "min": 0.3374233128834356,
+                "max": 0.6790688006651424,
+                "mean": 0.5324624443769047
+            },
+            "SAVI": {
+                "min": 0.5060774735885494,
+                "max": 1.0184973500987218,
+                "mean": 0.7986060543664751
+            },
+            "EVI": {
+                "min": 1.2655315232397606,
+                "max": 4.0338489127998205,
+                "mean": 2.6515611978363047
+            },
+            "NDRE": {
+                "min": 0.22503562424641016,
+                "max": 0.5573403991057382,
+                "mean": 0.41290542801400815
+            },
+            "NDWI": {
+                "min": -0.6261701056869653,
+                "max": -0.34506398537477145,
+                "mean": -0.5059114625505357
+            },
+            "ARVI": {
+                "min": 0.17384144907080687,
+                "max": 0.5140833988985051,
+                "mean": 0.3598951559844481
+            },
+            "VARI": {
+                "min": -0.11829537105069801,
+                "max": 0.2149377593360996,
+                "mean": 0.07222220901367128
+            },
+            "GCI": {
+                "min": 1.0537334263782276,
+                "max": 3.3500269251480885,
+                "mean": 2.096111998512796
+            }
+        },
+        "2020-11-01": {
+            "NDVI": {
+                "min": 0.0674967234600262,
+                "max": 0.18134034165571616,
+                "mean": 0.10527947944987139
+            },
+            "SAVI": {
+                "min": 0.10123955659913722,
+                "max": 0.27199562003832467,
+                "mean": 0.15791057964862182
+            },
+            "EVI": {
+                "min": -3.0905032467532467,
+                "max": -0.38034144863117486,
+                "mean": -0.6803080418845178
+            },
+            "NDRE": {
+                "min": 0.025119303581729507,
+                "max": 0.1360386992743886,
+                "mean": 0.06458991833048677
+            },
+            "NDWI": {
+                "min": -0.16284250389841837,
+                "max": -0.05167370815729607,
+                "mean": -0.08302279686822794
+            },
+            "ARVI": {
+                "min": 0.04301138710248392,
+                "max": 0.1220313141382748,
+                "mean": 0.07429914485446212
+            },
+            "VARI": {
+                "min": 0.00537109375,
+                "max": 0.1144578313253012,
+                "mean": 0.048173730455347154
+            },
+            "GCI": {
+                "min": 0.10897875257025369,
+                "max": 0.3890367216604578,
+                "mean": 0.182104181180297
+            }
+        },
+        "2020-12-01": {
+            "NDVI": {
+                "min": 0.6135817307692307,
+                "max": 0.7970488081725312,
+                "mean": 0.7393381111072691
+            },
+            "SAVI": {
+                "min": 0.9202343397926995,
+                "max": 1.195437521280218,
+                "mean": 1.1088751344761543
+            },
+            "EVI": {
+                "min": 2.2402247536945814,
+                "max": 3.4075864242933696,
+                "mean": 2.865038253266722
+            },
+            "NDRE": {
+                "min": 0.40932406246437936,
+                "max": 0.5840266222961731,
+                "mean": 0.5125111810518962
+            },
+            "NDWI": {
+                "min": -0.7065177812841364,
+                "max": -0.5459030200938515,
+                "mean": -0.6363737096540103
+            },
+            "ARVI": {
+                "min": 0.43781420765027323,
+                "max": 0.663054744181664,
+                "mean": 0.5883964205733132
+            },
+            "VARI": {
+                "min": 0.0950191570881226,
+                "max": 0.47952110901071204,
+                "mean": 0.33227205100318596
+            },
+            "GCI": {
+                "min": 2.404345521992581,
+                "max": 4.814722911497105,
+                "mean": 3.5451708058864653
+            }
+        },
+        "2021-01-01": {
+            "NDVI": {
+                "min": 0.24556541019955655,
+                "max": 0.4285951925476171,
+                "mean": 0.3492299310484143
+            },
+            "SAVI": {
+                "min": 0.36832259405528994,
+                "max": 0.6428393213572855,
+                "mean": 0.5238016482518437
+            },
+            "EVI": {
+                "min": -1642.5,
+                "max": 2601.25,
+                "mean": -11.46718312039627
+            },
+            "NDRE": {
+                "min": 0.15591538260642465,
+                "max": 0.3410475970068657,
+                "mean": 0.2534653766107387
+            },
+            "NDWI": {
+                "min": -0.3799511002444988,
+                "max": -0.21087108013937284,
+                "mean": -0.2964199972499187
+            },
+            "ARVI": {
+                "min": 0.11494066005527556,
+                "max": 0.3250231791490677,
+                "mean": 0.22670263397158139
+            },
+            "VARI": {
+                "min": -0.03036876355748373,
+                "max": 0.38550135501355015,
+                "mean": 0.12510423307180918
+            },
+            "GCI": {
+                "min": 0.5344401271635464,
+                "max": 1.225552050473186,
+                "mean": 0.8481994111724672
+            }
+        },
+        "2021-02-01": {
+            "NDVI": {
+                "min": 0.24381742738589213,
+                "max": 0.5400146842878121,
+                "mean": 0.3815195695580105
+            },
+            "SAVI": {
+                "min": 0.3656957928802589,
+                "max": 0.809947692025328,
+                "mean": 0.5722258226740334
+            },
+            "EVI": {
+                "min": -165.84745762711864,
+                "max": 789.8387096774194,
+                "mean": 6.048441642445355
+            },
+            "NDRE": {
+                "min": 0.17424005014102162,
+                "max": 0.44264789804070764,
+                "mean": 0.2847670559038924
+            },
+            "NDWI": {
+                "min": -0.47589988502697445,
+                "max": -0.20579892845887174,
+                "mean": -0.3172575814508681
+            },
+            "ARVI": {
+                "min": 0.1319424597504049,
+                "max": 0.40655307994757534,
+                "mean": 0.25688865994142346
+            },
+            "VARI": {
+                "min": 0.017758046614872364,
+                "max": 0.5510204081632653,
+                "mean": 0.1634588735725886
+            },
+            "GCI": {
+                "min": 0.5182539682539682,
+                "max": 1.81606479919001,
+                "mean": 0.9519147272863704
+            }
+        },
+        "2021-03-01": {
+            "NDVI": {
+                "min": 0.14373182305219653,
+                "max": 0.35785288270377735,
+                "mean": 0.2257515559834311
+            },
+            "SAVI": {
+                "min": 0.2155812351725721,
+                "max": 0.536741214057508,
+                "mean": 0.33860175350823574
+            },
+            "EVI": {
+                "min": -304.3333333333333,
+                "max": 268.14814814814815,
+                "mean": -1.910889883786674
+            },
+            "NDRE": {
+                "min": 0.07078925956061839,
+                "max": 0.2778297474275023,
+                "mean": 0.15650044511809308
+            },
+            "NDWI": {
+                "min": -0.32078162886892025,
+                "max": -0.12086330935251799,
+                "mean": -0.19556815402554145
+            },
+            "ARVI": {
+                "min": 0.07743052692339408,
+                "max": 0.2546563375638701,
+                "mean": 0.13790232795785223
+            },
+            "VARI": {
+                "min": -0.030137981118373274,
+                "max": 0.31112072695802684,
+                "mean": 0.06618892276335256
+            },
+            "GCI": {
+                "min": 0.27495908346972175,
+                "max": 0.9445611087778245,
+                "mean": 0.493748626016292
+            }
+        },
+        "2021-04-01": {
+            "NDVI": {
+                "min": -0.0005752085130859936,
+                "max": 0.0625810635538262,
+                "mean": 0.025659743377922192
+            },
+            "SAVI": {
+                "min": -0.0008627817521659417,
+                "max": 0.09386779070238722,
+                "mean": 0.03848806467886672
+            },
+            "EVI": {
+                "min": -0.2125202125202125,
+                "max": 0.002025111381125962,
+                "mean": -0.08723393481943187
+            },
+            "NDRE": {
+                "min": -0.02585885684477234,
+                "max": 0.04154081512572078,
+                "mean": 0.0020747323532409366
+            },
+            "NDWI": {
+                "min": -0.029750866725792146,
+                "max": 0.026746954208094104,
+                "mean": 0.005578609950471531
+            },
+            "ARVI": {
+                "min": 0.02537608266220939,
+                "max": 0.0733974358974359,
+                "mean": 0.04598727435775285
+            },
+            "VARI": {
+                "min": 0.038825448613376834,
+                "max": 0.09262832883056735,
+                "mean": 0.06986384464020967
+            },
+            "GCI": {
+                "min": -0.0521003818876159,
+                "max": 0.0613262423134453,
+                "mean": -0.010821951788971914
+            }
+        },
+        "2021-05-01": {
+            "NDVI": {
+                "min": 0.041906017515773615,
+                "max": 0.14027458002899293,
+                "mean": 0.09745170745683669
+            },
+            "SAVI": {
+                "min": 0.06285606666980555,
+                "max": 0.21040289916862076,
+                "mean": 0.14617105108041095
+            },
+            "EVI": {
+                "min": -0.8463574489538694,
+                "max": -0.17499016909162407,
+                "mean": -0.546242667542426
+            },
+            "NDRE": {
+                "min": 0.004378518452327763,
+                "max": 0.09723116548615583,
+                "mean": 0.055249707790505066
+            },
+            "NDWI": {
+                "min": -0.10343636677603177,
+                "max": -0.005635339029267406,
+                "mean": -0.06705023476378916
+            },
+            "ARVI": {
+                "min": 0.045473508552357114,
+                "max": 0.1043733921352444,
+                "mean": 0.07260958137279823
+            },
+            "VARI": {
+                "min": 0.036600244001626675,
+                "max": 0.13334720199708758,
+                "mean": 0.06540148228987112
+            },
+            "GCI": {
+                "min": 0.01133455210237666,
+                "max": 0.23073959938366717,
+                "mean": 0.14462031289815458
+            }
+        },
+        "2021-06-01": {
+            "NDVI": {
+                "min": 0.16458333333333333,
+                "max": 0.7695697796432319,
+                "mean": 0.48173241455164617
+            },
+            "SAVI": {
+                "min": 0.2468589284551787,
+                "max": 1.1542335536669814,
+                "mean": 0.7225293797031644
+            },
+            "EVI": {
+                "min": -516.9230769230769,
+                "max": 136.39492753623188,
+                "mean": -2.9193369722162
+            },
+            "NDRE": {
+                "min": 0.10215605749486653,
+                "max": 0.5794965675057209,
+                "mean": 0.3588854008490431
+            },
+            "NDWI": {
+                "min": -0.6536786870603997,
+                "max": -0.21603563474387527,
+                "mean": -0.4273947319563845
+            },
+            "ARVI": {
+                "min": -0.005169982766724111,
+                "max": 0.650290628234732,
+                "mean": 0.332203362343081
+            },
+            "VARI": {
+                "min": -0.1851140968223502,
+                "max": 1.4167664670658682,
+                "mean": 0.18658903685629738
+            },
+            "GCI": {
+                "min": 0.5511363636363635,
+                "max": 3.77498388136686,
+                "mean": 1.6219417321991592
+            }
+        },
+        "2021-07-01": {
+            "NDVI": {
+                "min": 0.5495219885277247,
+                "max": 0.8048364153627312,
+                "mean": 0.7087626341470263
+            },
+            "SAVI": {
+                "min": 0.8242041869802121,
+                "max": 1.2071401479233832,
+                "mean": 1.0630357883938082
+            },
+            "EVI": {
+                "min": 2.31240761672898,
+                "max": 19.664045746962117,
+                "mean": 4.46921377076348
+            },
+            "NDRE": {
+                "min": 0.33356515691558725,
+                "max": 0.6318375896237816,
+                "mean": 0.5126928170836786
+            },
+            "NDWI": {
+                "min": -0.6900796524257784,
+                "max": -0.44903474903474905,
+                "mean": -0.5993605357082958
+            },
+            "ARVI": {
+                "min": 0.3739453929449279,
+                "max": 0.679339358055469,
+                "mean": 0.5598750030934115
+            },
+            "VARI": {
+                "min": 0.13490284005979072,
+                "max": 0.5814081408140814,
+                "mean": 0.3708550351432018
+            },
+            "GCI": {
+                "min": 1.6299929922915206,
+                "max": 4.453271028037383,
+                "mean": 3.0658497633603394
+            }
+        },
+        "2021-08-01": {
+            "NDVI": {
+                "min": 0.33944664031620553,
+                "max": 0.7105678233438486,
+                "mean": 0.5792946348157092
+            },
+            "SAVI": {
+                "min": 0.5091297130661608,
+                "max": 1.0657466732380483,
+                "mean": 0.8688586135219827
+            },
+            "EVI": {
+                "min": -94.71153846153847,
+                "max": 56.14678899082569,
+                "mean": 4.340505537212861
+            },
+            "NDRE": {
+                "min": 0.26542195668409263,
+                "max": 0.5652173913043478,
+                "mean": 0.435721794503854
+            },
+            "NDWI": {
+                "min": -0.6224403927068723,
+                "max": -0.2999846555163419,
+                "mean": -0.4992388458200786
+            },
+            "ARVI": {
+                "min": 0.19838833461243285,
+                "max": 0.5562608629940301,
+                "mean": 0.42048417182798503
+            },
+            "VARI": {
+                "min": 0.06455696202531645,
+                "max": 0.3425567238516879,
+                "mean": 0.22879754453510145
+            },
+            "GCI": {
+                "min": 0.8570802279701886,
+                "max": 3.2971768202080236,
+                "mean": 2.034603975523671
+            }
+        },
+        "2021-09-01": {
+            "NDVI": {
+                "min": -0.02837454398054317,
+                "max": 0.2065832784726794,
+                "mean": 0.05805701500118301
+            },
+            "SAVI": {
+                "min": -0.04255965952272382,
+                "max": 0.30985451912316503,
+                "mean": 0.08708008588062614
+            },
+            "EVI": {
+                "min": -12.251308900523561,
+                "max": 9.891696750902527,
+                "mean": -0.36214354493649925
+            },
+            "NDRE": {
+                "min": -0.09048072585091985,
+                "max": 0.16094130375980525,
+                "mean": 0.012448861588544365
+            },
+            "NDWI": {
+                "min": -0.17102726521619388,
+                "max": 0.015732072193803688,
+                "mean": -0.04082722179942501
+            },
+            "ARVI": {
+                "min": -0.08020650380541806,
+                "max": 0.1538404120325446,
+                "mean": 0.04572489151147357
+            },
+            "VARI": {
+                "min": -0.14528126452812645,
+                "max": 0.19100467289719625,
+                "mean": 0.0386382605378333
+            },
+            "GCI": {
+                "min": -0.030976814899277838,
+                "max": 0.412624584717608,
+                "mean": 0.0897858802006545
+            }
+        },
+        "2021-10-01": {
+            "NDVI": {
+                "min": 0.43278688524590164,
+                "max": 0.8117303276977667,
+                "mean": 0.7008527528318198
+            },
+            "SAVI": {
+                "min": 0.6490916541456085,
+                "max": 1.2174684336846497,
+                "mean": 1.051154912972771
+            },
+            "EVI": {
+                "min": -6.295053003533569,
+                "max": 24.43448275862069,
+                "mean": 2.4630792227750185
+            },
+            "NDRE": {
+                "min": 0.26396327467482783,
+                "max": 0.6343777976723366,
+                "mean": 0.4894833307519283
+            },
+            "NDWI": {
+                "min": -0.7445532680391765,
+                "max": -0.4574763757643135,
+                "mean": -0.6306441008380841
+            },
+            "ARVI": {
+                "min": 0.22982749026154703,
+                "max": 0.702457529275936,
+                "mean": 0.5355726128358961
+            },
+            "VARI": {
+                "min": -0.08504398826979472,
+                "max": 1.3115124153498872,
+                "mean": 0.2204495261678177
+            },
+            "GCI": {
+                "min": 1.6864754098360657,
+                "max": 5.829420970266041,
+                "mean": 3.545027383477498
+            }
+        },
+        "2021-11-01": {
+            "NDVI": {
+                "min": 0.1191364758569214,
+                "max": 0.2668987873694321,
+                "mean": 0.19030659160018848
+            },
+            "SAVI": {
+                "min": 0.1786944540130899,
+                "max": 0.40032414910858993,
+                "mean": 0.2854428805373691
+            },
+            "EVI": {
+                "min": -8.081800887761572,
+                "max": 20.317848410757946,
+                "mean": -1.20169738256068
+            },
+            "NDRE": {
+                "min": 0.0615978615978616,
+                "max": 0.1918393852481195,
+                "mean": 0.12136156272867618
+            },
+            "NDWI": {
+                "min": -0.2158026946791505,
+                "max": -0.08090722564187877,
+                "mean": -0.14666782648407034
+            },
+            "ARVI": {
+                "min": 0.08306782722943012,
+                "max": 0.1920346755449463,
+                "mean": 0.13266241815779198
+            },
+            "VARI": {
+                "min": 0.006669698347733818,
+                "max": 0.1751666967021085,
+                "mean": 0.0991664968753387
+            },
+            "GCI": {
+                "min": 0.17605888741402187,
+                "max": 0.5503785672684915,
+                "mean": 0.34586665464754246
+            }
+        },
+        "2021-12-01": {
+            "NDVI": {
+                "min": -0.02634841909485431,
+                "max": 0.2111662289660539,
+                "mean": 0.1358659725320018
+            },
+            "SAVI": {
+                "min": -0.03952109729164245,
+                "max": 0.31673393960025287,
+                "mean": 0.20378909813760743
+            },
+            "EVI": {
+                "min": -12.714285714285714,
+                "max": 1.6453382084095063,
+                "mean": -0.7905395509623934
+            },
+            "NDRE": {
+                "min": -0.07684277245442005,
+                "max": 0.14416980611963612,
+                "mean": 0.08079870877749831
+            },
+            "NDWI": {
+                "min": -0.1514975283512649,
+                "max": 0.03679852805887764,
+                "mean": -0.0907523080426461
+            },
+            "ARVI": {
+                "min": -0.024324219807417148,
+                "max": 0.16293289758051763,
+                "mean": 0.09913512814841981
+            },
+            "VARI": {
+                "min": -0.016027197668771247,
+                "max": 0.19224422442244224,
+                "mean": 0.0998962177475007
+            },
+            "GCI": {
+                "min": -0.07098491570541265,
+                "max": 0.3570938999314599,
+                "mean": 0.20481822607867464
+            }
+        },
+        "2022-01-01": {
+            "NDVI": {
+                "min": -0.010555767518758743,
+                "max": 0.04193458205199888,
+                "mean": 0.01814907719875626
+            },
+            "SAVI": {
+                "min": -0.01583314787142721,
+                "max": 0.06289967501834574,
+                "mean": 0.02722270926546054
+            },
+            "EVI": {
+                "min": -0.7166543846720708,
+                "max": 0.14965741074648395,
+                "mean": -0.22209152929144696
+            },
+            "NDRE": {
+                "min": -0.04425332290852228,
+                "max": 0.018703898840885143,
+                "mean": -0.010189437020792204
+            },
+            "NDWI": {
+                "min": -0.03606182026330853,
+                "max": 0.01381179811539951,
+                "mean": -0.012478598169811516
+            },
+            "ARVI": {
+                "min": -0.01107011070110701,
+                "max": 0.030585795749092794,
+                "mean": 0.009149754924491344
+            },
+            "VARI": {
+                "min": -0.01579492490937338,
+                "max": 0.062207183758459135,
+                "mean": 0.011381635001104581
+            },
+            "GCI": {
+                "min": -0.027247262541380213,
+                "max": 0.07482185273159137,
+                "mean": 0.02558940364564631
+            }
+        },
+        "2022-02-01": {
+            "NDVI": {
+                "min": 0.07936507936507936,
+                "max": 0.8508997429305912,
+                "mean": 0.6137937744254592
+            },
+            "SAVI": {
+                "min": 0.11903797878370719,
+                "max": 1.2762129163542895,
+                "mean": 0.9205901884366617
+            },
+            "EVI": {
+                "min": -127.53424657534246,
+                "max": 146.13636363636363,
+                "mean": -0.29653567737823944
+            },
+            "NDRE": {
+                "min": 0.020833333333333332,
+                "max": 0.6600761835661164,
+                "mean": 0.5043662033299833
+            },
+            "NDWI": {
+                "min": -0.7983886814698369,
+                "max": -0.003852504127682994,
+                "mean": -0.5694856379004531
+            },
+            "ARVI": {
+                "min": -0.08715122287289011,
+                "max": 0.7562076749435666,
+                "mean": 0.46094493643379997
+            },
+            "VARI": {
+                "min": -15.470588235294118,
+                "max": 17.7,
+                "mean": 0.20691085389472222
+            },
+            "GCI": {
+                "min": 0.007734806629834168,
+                "max": 7.920077972709551,
+                "mean": 3.296084194487379
+            }
+        },
+        "2022-03-01": {
+            "NDVI": {
+                "min": 0.20679219905850707,
+                "max": 0.36931060044477393,
+                "mean": 0.30145677440444385
+            },
+            "SAVI": {
+                "min": 0.3101622257712028,
+                "max": 0.5539248387814097,
+                "mean": 0.45215008519949884
+            },
+            "EVI": {
+                "min": -48.35106382978723,
+                "max": -0.9773872769377469,
+                "mean": -2.9217073220400107
+            },
+            "NDRE": {
+                "min": 0.14081373172282263,
+                "max": 0.3051224944320713,
+                "mean": 0.22694426619262348
+            },
+            "NDWI": {
+                "min": -0.3235460191981931,
+                "max": -0.16180544239856606,
+                "mean": -0.24517007822223105
+            },
+            "ARVI": {
+                "min": 0.13999079613437643,
+                "max": 0.2687958738345566,
+                "mean": 0.20607532409617138
+            },
+            "VARI": {
+                "min": 0.058355437665782495,
+                "max": 0.317016317016317,
+                "mean": 0.13619054486651222
+            },
+            "GCI": {
+                "min": 0.3860808709175738,
+                "max": 0.9565943238731218,
+                "mean": 0.6538640517953559
+            }
+        },
+        "2022-04-01": {
+            "NDVI": {
+                "min": 0.05649602284315725,
+                "max": 0.3011063011063011,
+                "mean": 0.13092870469568896
+            },
+            "SAVI": {
+                "min": 0.08473971345536124,
+                "max": 0.45163229724042564,
+                "mean": 0.19638292709643115
+            },
+            "EVI": {
+                "min": -9.46218487394958,
+                "max": 9.497681607418857,
+                "mean": -0.8954921262559685
+            },
+            "NDRE": {
+                "min": 0.018226002430133656,
+                "max": 0.2554388814758949,
+                "mean": 0.08559115848248898
+            },
+            "NDWI": {
+                "min": -0.21137483206448723,
+                "max": -0.018212267113250993,
+                "mean": -0.10416593786453915
+            },
+            "ARVI": {
+                "min": 0.03740675146245908,
+                "max": 0.24865878094499386,
+                "mean": 0.09279734849378767
+            },
+            "VARI": {
+                "min": -0.059486255069851286,
+                "max": 0.2826984855438274,
+                "mean": 0.05987385883139766
+            },
+            "GCI": {
+                "min": 0.037100213219616096,
+                "max": 0.5360590573537762,
+                "mean": 0.23598596287812681
+            }
+        },
+        "2022-05-01": {
+            "NDVI": {
+                "min": 0.18560704115972043,
+                "max": 0.4312856238125396,
+                "mean": 0.27646313533037115
+            },
+            "SAVI": {
+                "min": 0.2783925451368666,
+                "max": 0.6468772263120399,
+                "mean": 0.41466672321074255
+            },
+            "EVI": {
+                "min": -3.358766233766234,
+                "max": -0.6642745145338319,
+                "mean": -1.3381642163007754
+            },
+            "NDRE": {
+                "min": 0.11571254567600488,
+                "max": 0.30541516245487366,
+                "mean": 0.20234691058184592
+            },
+            "NDWI": {
+                "min": -0.3216374269005848,
+                "max": -0.1375,
+                "mean": -0.20652431875677857
+            },
+            "ARVI": {
+                "min": 0.1304588170259812,
+                "max": 0.3325118817109664,
+                "mean": 0.20129692866045767
+            },
+            "VARI": {
+                "min": 0.06596638655462185,
+                "max": 0.562731997030438,
+                "mean": 0.17786571496381445
+            },
+            "GCI": {
+                "min": 0.318840579710145,
+                "max": 0.9482758620689655,
+                "mean": 0.5240865483630331
+            }
+        },
+        "2022-06-01": {
+            "NDVI": {
+                "min": 0.2942653830054416,
+                "max": 0.6716417910447762,
+                "mean": 0.5229706110139998
+            },
+            "SAVI": {
+                "min": 0.4413672828740844,
+                "max": 1.0073955626624027,
+                "mean": 0.7843949245315642
+            },
+            "EVI": {
+                "min": -176.1986301369863,
+                "max": 469.5967741935484,
+                "mean": 5.242187568433982
+            },
+            "NDRE": {
+                "min": 0.18188547204091246,
+                "max": 0.4960281286625863,
+                "mean": 0.3725821815340849
+            },
+            "NDWI": {
+                "min": -0.5818411097099622,
+                "max": -0.2647941096263976,
+                "mean": -0.4544032298299747
+            },
+            "ARVI": {
+                "min": 0.17203941874060463,
+                "max": 0.5184201408938677,
+                "mean": 0.3658670722803671
+            },
+            "VARI": {
+                "min": 0.039400428265524624,
+                "max": 0.405745769382133,
+                "mean": 0.18086525254253746
+            },
+            "GCI": {
+                "min": 0.720326409495549,
+                "max": 2.7828709288299156,
+                "mean": 1.7413751905707744
+            }
+        },
+        "2022-07-01": {
+            "NDVI": {
+                "min": 0.6,
+                "max": 0.8227430269021291,
+                "mean": 0.7754065776231058
+            },
+            "SAVI": {
+                "min": 0.8998693948628645,
+                "max": 1.2340127073190859,
+                "mean": 1.1629855276424856
+            },
+            "EVI": {
+                "min": 2.3371777476255087,
+                "max": 7.37847866419295,
+                "mean": 3.8060936303201385
+            },
+            "NDRE": {
+                "min": 0.41200179131213616,
+                "max": 0.6575633687653312,
+                "mean": 0.5634887802245344
+            },
+            "NDWI": {
+                "min": -0.7212287941311325,
+                "max": -0.5566224230443377,
+                "mean": -0.6661465264112859
+            },
+            "ARVI": {
+                "min": 0.4207650273224044,
+                "max": 0.7054709995886467,
+                "mean": 0.641805212156131
+            },
+            "VARI": {
+                "min": 0.11294117647058824,
+                "max": 0.5598516949152542,
+                "mean": 0.43615367640850783
+            },
+            "GCI": {
+                "min": 2.510828025477707,
+                "max": 5.1743421052631575,
+                "mean": 4.029716046998153
+            }
+        },
+        "2022-08-01": {
+            "NDVI": {
+                "min": 0.3854636591478697,
+                "max": 0.7337856715226502,
+                "mean": 0.6087175034454723
+            },
+            "SAVI": {
+                "min": 0.578123042225285,
+                "max": 1.1005686920083806,
+                "mean": 0.9129827680173743
+            },
+            "EVI": {
+                "min": -36.71052631578947,
+                "max": 86.30952380952381,
+                "mean": 7.0015902847788825
+            },
+            "NDRE": {
+                "min": 0.29422464756707595,
+                "max": 0.5648414985590778,
+                "mean": 0.42169006241544976
+            },
+            "NDWI": {
+                "min": -0.653597259231062,
+                "max": -0.37375745526838966,
+                "mean": -0.5087838771615728
+            },
+            "ARVI": {
+                "min": 0.22844556324732537,
+                "max": 0.5825379439837272,
+                "mean": 0.4515273937935928
+            },
+            "VARI": {
+                "min": 0.02526002971768202,
+                "max": 0.4963855421686747,
+                "mean": 0.29299163885543567
+            },
+            "GCI": {
+                "min": 1.1936507936507939,
+                "max": 3.7736263736263735,
+                "mean": 2.0967051439211373
+            }
+        },
+        "2022-09-01": {
+            "NDVI": {
+                "min": 0.35381598300375877,
+                "max": 0.6495635512028954,
+                "mean": 0.5039148023598796
+            },
+            "SAVI": {
+                "min": 0.5306806111610426,
+                "max": 0.974241617881852,
+                "mean": 0.7557982025201528
+            },
+            "EVI": {
+                "min": 1.2697822623473183,
+                "max": 22.09209209209209,
+                "mean": 3.0912459040013287
+            },
+            "NDRE": {
+                "min": 0.22851591690330295,
+                "max": 0.5091627739849084,
+                "mean": 0.3589572645979934
+            },
+            "NDWI": {
+                "min": -0.6005522319374137,
+                "max": -0.3303356351373053,
+                "mean": -0.45871541306907165
+            },
+            "ARVI": {
+                "min": 0.20225965903359225,
+                "max": 0.4886499402628435,
+                "mean": 0.33393079977881845
+            },
+            "VARI": {
+                "min": -0.06796769851951548,
+                "max": 0.30075901328273247,
+                "mean": 0.10896370130442923
+            },
+            "GCI": {
+                "min": 0.9865707434052757,
+                "max": 3.006912442396313,
+                "mean": 1.7541299328507385
+            }
+        },
+        "2022-10-01": {
+            "NDVI": {
+                "min": 0.19004097069019854,
+                "max": 0.610691458454387,
+                "mean": 0.3929629363751619
+            },
+            "SAVI": {
+                "min": 0.2850389978728433,
+                "max": 0.9159484845550498,
+                "mean": 0.5893907616790026
+            },
+            "EVI": {
+                "min": -160.24691358024688,
+                "max": 247.85714285714283,
+                "mean": 4.4052960369284975
+            },
+            "NDRE": {
+                "min": 0.10767739198933528,
+                "max": 0.44972746331236896,
+                "mean": 0.2791714943898865
+            },
+            "NDWI": {
+                "min": -0.5613969207660533,
+                "max": -0.17321156773211568,
+                "mean": -0.3569272057339707
+            },
+            "ARVI": {
+                "min": 0.07934802077735985,
+                "max": 0.43444006752954417,
+                "mean": 0.2503227444359602
+            },
+            "VARI": {
+                "min": -0.11920996943334117,
+                "max": 0.2514817950889077,
+                "mean": 0.086799540757221
+            },
+            "GCI": {
+                "min": 0.41899852724595,
+                "max": 2.559931506849315,
+                "mean": 1.1720739111191851
+            }
+        },
+        "2022-11-01": {
+            "NDVI": {
+                "min": 0.07900459048079246,
+                "max": 0.3879033384550915,
+                "mean": 0.26741868267105723
+            },
+            "SAVI": {
+                "min": 0.11849972821163254,
+                "max": 0.5818143725120469,
+                "mean": 0.40109998439244077
+            },
+            "EVI": {
+                "min": -777.2727272727274,
+                "max": 378.1818181818182,
+                "mean": -3.754074735675274
+            },
+            "NDRE": {
+                "min": 0.00241288367656136,
+                "max": 0.2956901610484449,
+                "mean": 0.1896348493030089
+            },
+            "NDWI": {
+                "min": -0.3113683585633719,
+                "max": -0.07936507936507936,
+                "mean": -0.21270069893637547
+            },
+            "ARVI": {
+                "min": -0.011408861767046962,
+                "max": 0.30281749725019036,
+                "mean": 0.18156190379356524
+            },
+            "VARI": {
+                "min": -0.10617214043035107,
+                "max": 0.4137360364087712,
+                "mean": 0.13591133873282873
+            },
+            "GCI": {
+                "min": 0.17241379310344818,
+                "max": 0.9043103448275862,
+                "mean": 0.551905167242922
+            }
+        },
+        "2022-12-01": {
+            "NDVI": {
+                "min": 0.01951386511468675,
+                "max": 0.08725314183123878,
+                "mean": 0.05344837774119585
+            },
+            "SAVI": {
+                "min": 0.029269545123882065,
+                "max": 0.13087383869664737,
+                "mean": 0.0801690758311318
+            },
+            "EVI": {
+                "min": -0.3501868975014755,
+                "max": -0.08131147540983608,
+                "mean": -0.24222076821012037
+            },
+            "NDRE": {
+                "min": -0.035915896261147016,
+                "max": 0.034570196940241736,
+                "mean": 0.0008780241404256808
+            },
+            "NDWI": {
+                "min": -0.05844845908607864,
+                "max": 0.003468937243771681,
+                "mean": -0.0312621031262767
+            },
+            "ARVI": {
+                "min": 0.02276707530647986,
+                "max": 0.09021776702385068,
+                "mean": 0.05207478242569329
+            },
+            "VARI": {
+                "min": -0.0038138825324180014,
+                "max": 0.12121212121212122,
+                "mean": 0.04880999944333443
+            },
+            "GCI": {
+                "min": -0.006913890634820841,
+                "max": 0.12415349887133176,
+                "mean": 0.06484544337989695
+            }
+        },
+        "2023-01-01": {
+            "NDVI": {
+                "min": 0.041109969167523124,
+                "max": 0.200670297444491,
+                "mean": 0.09975283747785024
+            },
+            "SAVI": {
+                "min": 0.06166297331149437,
+                "max": 0.3009896842435985,
+                "mean": 0.14962266087629958
+            },
+            "EVI": {
+                "min": -25.161290322580644,
+                "max": 116.19047619047619,
+                "mean": -0.8263355636928267
+            },
+            "NDRE": {
+                "min": -0.0006782169060977866,
+                "max": 0.1350872007094295,
+                "mean": 0.05316246193206907
+            },
+            "NDWI": {
+                "min": -0.13636363636363635,
+                "max": -0.03719224724986904,
+                "mean": -0.08973532600476664
+            },
+            "ARVI": {
+                "min": 0.025359477124183006,
+                "max": 0.1480241125251172,
+                "mean": 0.06140270288486489
+            },
+            "VARI": {
+                "min": -0.03917050691244239,
+                "max": 0.19708029197080293,
+                "mean": 0.02119386676884466
+            },
+            "GCI": {
+                "min": 0.07725788900979325,
+                "max": 0.3157894736842106,
+                "mean": 0.19828546981150874
+            }
+        },
+        "2023-02-01": {
+            "NDVI": {
+                "min": 0.15951369562033105,
+                "max": 0.4597190112039836,
+                "mean": 0.275883927947367
+            },
+            "SAVI": {
+                "min": 0.23925302087147565,
+                "max": 0.6895172045878901,
+                "mean": 0.4137976315927189
+            },
+            "EVI": {
+                "min": -868,
+                "max": 709.1666666666667,
+                "mean": -17.039776385837122
+            },
+            "NDRE": {
+                "min": 0.10404463040446305,
+                "max": 0.35367362084604603,
+                "mean": 0.21292730495203144
+            },
+            "NDWI": {
+                "min": -0.376542073283005,
+                "max": -0.1755577109602328,
+                "mean": -0.2381553677208408
+            },
+            "ARVI": {
+                "min": 0.07841798835575185,
+                "max": 0.3524393358876117,
+                "mean": 0.17271647794065623
+            },
+            "VARI": {
+                "min": -0.06254454739843193,
+                "max": 0.4385898407884761,
+                "mean": 0.08658389129878886
+            },
+            "GCI": {
+                "min": 0.4258823529411764,
+                "max": 1.2079149438865917,
+                "mean": 0.6306254016510844
+            }
+        },
+        "2023-03-01": {
+            "NDVI": {
+                "min": -0.039021758676497036,
+                "max": 0.12392285597045548,
+                "mean": 0.06325264212556295
+            },
+            "SAVI": {
+                "min": -0.058530006743088336,
+                "max": 0.18587474996153253,
+                "mean": 0.09487429254338137
+            },
+            "EVI": {
+                "min": -2.604166666666667,
+                "max": 11.818181818181818,
+                "mean": -0.3288745667475854
+            },
+            "NDRE": {
+                "min": -0.08141192252871636,
+                "max": 0.07879834916978597,
+                "mean": 0.02128273599775757
+            },
+            "NDWI": {
+                "min": -0.08744167173868939,
+                "max": 0.028040540540540542,
+                "mean": -0.04739563522640796
+            },
+            "ARVI": {
+                "min": -0.04612676056338028,
+                "max": 0.12244690580225587,
+                "mean": 0.04963385087225022
+            },
+            "VARI": {
+                "min": -0.10692930003517412,
+                "max": 0.17136659436008678,
+                "mean": 0.03514332256619205
+            },
+            "GCI": {
+                "min": -0.054551429510351634,
+                "max": 0.19164072921298358,
+                "mean": 0.1017813368926362
+            }
+        },
+        "2023-04-01": {
+            "NDVI": {
+                "min": 0.09522655682093531,
+                "max": 0.22887633396107973,
+                "mean": 0.13531238149885141
+            },
+            "SAVI": {
+                "min": 0.14283118299109576,
+                "max": 0.34329295085054295,
+                "mean": 0.2029558688489021
+            },
+            "EVI": {
+                "min": -2.3438057836486967,
+                "max": -0.4928280674549331,
+                "mean": -0.7559015183639616
+            },
+            "NDRE": {
+                "min": 0.0383887071785161,
+                "max": 0.1662848751835536,
+                "mean": 0.07820641712385518
+            },
+            "NDWI": {
+                "min": -0.19656441717791412,
+                "max": -0.07426436244745446,
+                "mean": -0.10406954331467352
+            },
+            "ARVI": {
+                "min": 0.059445843828715365,
+                "max": 0.16298718997001907,
+                "mean": 0.09828773277565267
+            },
+            "VARI": {
+                "min": -0.00830405621207282,
+                "max": 0.18557724115117433,
+                "mean": 0.07004825884134326
+            },
+            "GCI": {
+                "min": 0.16044399596367298,
+                "max": 0.4893097128894319,
+                "mean": 0.23418518845824224
+            }
+        },
+        "2023-05-01": {
+            "NDVI": {
+                "min": 0.43682664054848186,
+                "max": 0.7048920578332343,
+                "mean": 0.5932505062207065
+            },
+            "SAVI": {
+                "min": 0.6551597502754315,
+                "max": 1.0572333894444994,
+                "mean": 0.8897933250532647
+            },
+            "EVI": {
+                "min": 3.0565606551133118,
+                "max": 12.054054054054053,
+                "mean": 4.852590661897541
+            },
+            "NDRE": {
+                "min": 0.2513155507167483,
+                "max": 0.532081516418973,
+                "mean": 0.4107202078584303
+            },
+            "NDWI": {
+                "min": -0.6156156156156156,
+                "max": -0.34615805006011585,
+                "mean": -0.5008374542054334
+            },
+            "ARVI": {
+                "min": 0.291871921182266,
+                "max": 0.5496108214312703,
+                "mean": 0.4321596900929956
+            },
+            "VARI": {
+                "min": 0.13261050875729774,
+                "max": 0.3528218992903008,
+                "mean": 0.254174174070647
+            },
+            "GCI": {
+                "min": 1.0588431962554328,
+                "max": 3.203125,
+                "mean": 2.043702898756067
+            }
+        },
+        "2023-06-01": {
+            "NDVI": {
+                "min": 0.4767740959297927,
+                "max": 0.6661367249602543,
+                "mean": 0.5800114448871551
+            },
+            "SAVI": {
+                "min": 0.7151070428928058,
+                "max": 0.9991389017685633,
+                "mean": 0.8699580987000064
+            },
+            "EVI": {
+                "min": -13.859401468097122,
+                "max": 24.803149606299215,
+                "mean": 5.272225589666856
+            },
+            "NDRE": {
+                "min": 0.3046204170641952,
+                "max": 0.4976469979831411,
+                "mean": 0.41864368202402036
+            },
+            "NDWI": {
+                "min": -0.5477587161040398,
+                "max": -0.41530969411048546,
+                "mean": -0.4953656091879041
+            },
+            "ARVI": {
+                "min": 0.3038751887267237,
+                "max": 0.514637904468413,
+                "mean": 0.4183355699403765
+            },
+            "VARI": {
+                "min": 0.012993900822063113,
+                "max": 0.6242317822651449,
+                "mean": 0.23439096453461872
+            },
+            "GCI": {
+                "min": 1.420614263404477,
+                "max": 2.4224180127263826,
+                "mean": 1.9740035177294073
+            }
+        },
+        "2023-07-01": {
+            "NDVI": {
+                "min": 0.21175830157866085,
+                "max": 0.801589103291714,
+                "mean": 0.5108722153909846
+            },
+            "SAVI": {
+                "min": 0.3176158399673403,
+                "max": 1.2022926755447942,
+                "mean": 0.766244330037697
+            },
+            "EVI": {
+                "min": -117.7127659574468,
+                "max": 254.05405405405406,
+                "mean": 2.5985309872689717
+            },
+            "NDRE": {
+                "min": 0.1387572069186419,
+                "max": 0.6005378151260504,
+                "mean": 0.3602134091790825
+            },
+            "NDWI": {
+                "min": -0.6938599019890458,
+                "max": -0.1957372184001079,
+                "mean": -0.44447894112266945
+            },
+            "ARVI": {
+                "min": 0.11430537502867191,
+                "max": 0.682335837169857,
+                "mean": 0.3662110927953193
+            },
+            "VARI": {
+                "min": -0.029252925292529253,
+                "max": 0.630016051364366,
+                "mean": 0.19455278285468128
+            },
+            "GCI": {
+                "min": 0.4867494129486749,
+                "max": 4.532956685499058,
+                "mean": 1.83513128815318
+            }
+        },
+        "2023-08-01": {
+            "NDVI": {
+                "min": 0.6123110151187905,
+                "max": 0.8248506078714197,
+                "mean": 0.7146632742132635
+            },
+            "SAVI": {
+                "min": 0.9183425563503846,
+                "max": 1.2371484495724734,
+                "mean": 1.071879963074357
+            },
+            "EVI": {
+                "min": 1.2259459459459459,
+                "max": 2.6750106067034367,
+                "mean": 1.7029327060697144
+            },
+            "NDRE": {
+                "min": 0.3517428700769579,
+                "max": 0.6172388604821037,
+                "mean": 0.4927059391564994
+            },
+            "NDWI": {
+                "min": -0.7581069237510956,
+                "max": -0.5726495726495726,
+                "mean": -0.6702759290912091
+            },
+            "ARVI": {
+                "min": 0.39891167852658016,
+                "max": 0.6978314966228226,
+                "mean": 0.537026829725918
+            },
+            "VARI": {
+                "min": -0.11417816813048934,
+                "max": 0.38625954198473283,
+                "mean": 0.1195269427982982
+            },
+            "GCI": {
+                "min": 2.68,
+                "max": 6.268115942028985,
+                "mean": 4.139797983837395
+            }
+        },
+        "2023-09-01": {
+            "NDVI": {
+                "min": 0.436387985460111,
+                "max": 0.7547120189357412,
+                "mean": 0.6382356004585229
+            },
+            "SAVI": {
+                "min": 0.654519368723099,
+                "max": 1.131968793828892,
+                "mean": 0.9572595184883418
+            },
+            "EVI": {
+                "min": 1.1521470224421275,
+                "max": 6.370453693288339,
+                "mean": 2.691011445937906
+            },
+            "NDRE": {
+                "min": 0.2989354560276206,
+                "max": 0.5930498399634202,
+                "mean": 0.46590566424923874
+            },
+            "NDWI": {
+                "min": -0.6776054814280562,
+                "max": -0.4744697564807541,
+                "mean": -0.603055674617666
+            },
+            "ARVI": {
+                "min": 0.23699920880385528,
+                "max": 0.6116046640755136,
+                "mean": 0.46639278631799563
+            },
+            "VARI": {
+                "min": -0.11672597864768683,
+                "max": 0.32922041503084687,
+                "mean": 0.11300389237871417
+            },
+            "GCI": {
+                "min": 1.805680119581465,
+                "max": 4.203579418344519,
+                "mean": 3.0871397494587214
+            }
+        },
+        "2023-10-01": {
+            "NDVI": {
+                "min": 0.025544984643044423,
+                "max": 0.1485952671023,
+                "mean": 0.08731859578781694
+            },
+            "SAVI": {
+                "min": 0.03831604179931833,
+                "max": 0.22288467217956293,
+                "mean": 0.13097293085454345
+            },
+            "EVI": {
+                "min": -0.484494552139941,
+                "max": -0.08339056215049544,
+                "mean": -0.25344636698382667
+            },
+            "NDRE": {
+                "min": -0.005714285714285714,
+                "max": 0.1100506787999852,
+                "mean": 0.05199817427518215
+            },
+            "NDWI": {
+                "min": -0.09574700109051254,
+                "max": 0.0035066776094904127,
+                "mean": -0.04183133874171085
+            },
+            "ARVI": {
+                "min": 0.046450611581242376,
+                "max": 0.14058987414737248,
+                "mean": 0.0916800567233122
+            },
+            "VARI": {
+                "min": 0.028768808554935174,
+                "max": 0.19681507233374454,
+                "mean": 0.1091170143073638
+            },
+            "GCI": {
+                "min": -0.006988847583643154,
+                "max": 0.2117703810902074,
+                "mean": 0.08798979138778198
+            }
+        },
+        "2023-11-01": {
+            "NDVI": {
+                "min": 0.47684848484848485,
+                "max": 0.7698607698607699,
+                "mean": 0.6856085672992964
+            },
+            "SAVI": {
+                "min": 0.7151860380559932,
+                "max": 1.1546729450301976,
+                "mean": 1.028292430632881
+            },
+            "EVI": {
+                "min": 1.3533782853997522,
+                "max": 3.010622437569884,
+                "mean": 2.3276912104079255
+            },
+            "NDRE": {
+                "min": 0.3323127392017496,
+                "max": 0.5746746941153622,
+                "mean": 0.47302380392376503
+            },
+            "NDWI": {
+                "min": -0.6936522539098436,
+                "max": -0.47828197039553505,
+                "mean": -0.6167907840965529
+            },
+            "ARVI": {
+                "min": 0.2793454666889297,
+                "max": 0.628399041243078,
+                "mean": 0.5170983576888677
+            },
+            "VARI": {
+                "min": -0.030744974379188016,
+                "max": 0.388681592039801,
+                "mean": 0.20347287572361095
+            },
+            "GCI": {
+                "min": 1.833488372093023,
+                "max": 4.528528528528528,
+                "mean": 3.2779349344686883
+            }
+        },
+        "2023-12-01": {
+            "NDVI": {
+                "min": 0.045581395348837206,
+                "max": 0.25901639344262295,
+                "mean": 0.12331862887125085
+            },
+            "SAVI": {
+                "min": 0.06836944304484323,
+                "max": 0.38850184415432354,
+                "mean": 0.18496935876016599
+            },
+            "EVI": {
+                "min": -10.849772382397571,
+                "max": 15.156576200417538,
+                "mean": -1.2509653311794053
+            },
+            "NDRE": {
+                "min": 0.03233707091194367,
+                "max": 0.235618597320725,
+                "mean": 0.1026637602137698
+            },
+            "NDWI": {
+                "min": -0.2232771138165978,
+                "max": -0.04507564062982402,
+                "mean": -0.10361659120517222
+            },
+            "ARVI": {
+                "min": 0.021303656597774244,
+                "max": 0.21547372336468462,
+                "mean": 0.08121871187435212
+            },
+            "VARI": {
+                "min": -0.0721105527638191,
+                "max": 0.2844509948415623,
+                "mean": 0.04788211077134581
+            },
+            "GCI": {
+                "min": 0.09440672486259305,
+                "max": 0.5749209088294507,
+                "mean": 0.23585189120907588
+            }
+        },
+        "2024-01-01": {
+            "NDVI": {
+                "min": 0.5735273925580118,
+                "max": 0.7755977927651747,
+                "mean": 0.717972933787667
+            },
+            "SAVI": {
+                "min": 0.860172981878089,
+                "max": 1.1632778175130274,
+                "mean": 1.0768403650305505
+            },
+            "EVI": {
+                "min": 2.799852228881044,
+                "max": 4.618955094991365,
+                "mean": 3.2541970350840543
+            },
+            "NDRE": {
+                "min": 0.3362873134328358,
+                "max": 0.6172169594408167,
+                "mean": 0.5249268017341528
+            },
+            "NDWI": {
+                "min": -0.7107413606379837,
+                "max": -0.46360153256704983,
+                "mean": -0.6242733584517461
+            },
+            "ARVI": {
+                "min": 0.4092810954735641,
+                "max": 0.6358208955223881,
+                "mean": 0.56541543175093
+            },
+            "VARI": {
+                "min": 0.1892430278884462,
+                "max": 0.4004761904761905,
+                "mean": 0.31029711221518447
+            },
+            "GCI": {
+                "min": 1.7285714285714286,
+                "max": 4.914227365554799,
+                "mean": 3.3828080087494334
+            }
+        },
+        "2024-02-01": {
+            "NDVI": {
+                "min": 0.4430275606746195,
+                "max": 0.5602437880918893,
+                "mean": 0.5103066550112897
+            },
+            "SAVI": {
+                "min": 0.6644730077120823,
+                "max": 0.8403000234393312,
+                "mean": 0.7653871569484441
+            },
+            "EVI": {
+                "min": 2.518802536499041,
+                "max": 4.216722004225778,
+                "mean": 3.1187630763256893
+            },
+            "NDRE": {
+                "min": 0.2968436416712279,
+                "max": 0.43718745264434006,
+                "mean": 0.3714332177898579
+            },
+            "NDWI": {
+                "min": -0.5130823229100191,
+                "max": -0.3898434516991218,
+                "mean": -0.45677421334911283
+            },
+            "ARVI": {
+                "min": 0.2791117996385231,
+                "max": 0.3895622062824635,
+                "mean": 0.34152687620356426
+            },
+            "VARI": {
+                "min": 0.05405405405405406,
+                "max": 0.18880647336480108,
+                "mean": 0.12927669771127404
+            },
+            "GCI": {
+                "min": 1.2778473091364204,
+                "max": 2.107470511140236,
+                "mean": 1.6880567173726082
+            }
+        },
+        "2024-03-01": {
+            "NDVI": {
+                "min": -0.04553734061930783,
+                "max": 0.05357142857142857,
+                "mean": -0.00785950843129784
+            },
+            "SAVI": {
+                "min": -0.06830318334230244,
+                "max": 0.08035348243975766,
+                "mean": -0.011788827020615712
+            },
+            "EVI": {
+                "min": -0.07436430513353591,
+                "max": 0.1289143071441965,
+                "mean": 0.02117560132110995
+            },
+            "NDRE": {
+                "min": -0.0723798028565681,
+                "max": 0.05323557539050048,
+                "mean": -0.027937794767700447
+            },
+            "NDWI": {
+                "min": 0.02894458171549594,
+                "max": 0.07857142857142857,
+                "mean": 0.05762924912326509
+            },
+            "ARVI": {
+                "min": 0.01474604041507373,
+                "max": 0.12573640801211916,
+                "mean": 0.05408555368781303
+            },
+            "VARI": {
+                "min": 0.048073524213503006,
+                "max": 0.2846902201740911,
+                "mean": 0.12336455334082783
+            },
+            "GCI": {
+                "min": -0.14569536423841056,
+                "max": -0.056260720411663856,
+                "mean": -0.10886669232588582
+            }
+        },
+        "2024-04-01": {
+            "NDVI": {
+                "min": 0.12024825446082234,
+                "max": 0.6195137108677076,
+                "mean": 0.3323371083664512
+            },
+            "SAVI": {
+                "min": 0.18035838957412148,
+                "max": 0.9291983843405314,
+                "mean": 0.49846640036753737
+            },
+            "EVI": {
+                "min": -867.5,
+                "max": 535.2380952380953,
+                "mean": -1.956179744401675
+            },
+            "NDRE": {
+                "min": 0.0386574767755469,
+                "max": 0.4547065337763012,
+                "mean": 0.2494025310979724
+            },
+            "NDWI": {
+                "min": -0.5449518738480442,
+                "max": -0.1335394995782963,
+                "mean": -0.2822409808265714
+            },
+            "ARVI": {
+                "min": 0.03283582089552239,
+                "max": 0.48026315789473684,
+                "mean": 0.2199389223037333
+            },
+            "VARI": {
+                "min": -0.14587813620071685,
+                "max": 0.5509915014164306,
+                "mean": 0.13161139591146376
+            },
+            "GCI": {
+                "min": 0.30824140168721614,
+                "max": 2.395139513951395,
+                "mean": 0.8295999381917663
+            }
+        }
+    }
+}
