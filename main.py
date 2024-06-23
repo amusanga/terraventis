@@ -13,7 +13,7 @@ end_date = '2024-04-02'  # Replace with your end date
 # start = ee.Date(start_date)
 # end = ee.Date(end_date)
 
-field_1 = Field("/home/cesaire/Projects/terraventis/farmland/6.geojson")
-aggregated_data = field_1.computeIndexes(start_date, end_date)
+field = Field("/home/cesaire/Projects/terraventis/farmland/6.geojson")
+aggregated_data = field.computeIndexes(start_date, end_date)
 
 print("hbhhbh")
